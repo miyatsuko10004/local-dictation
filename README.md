@@ -64,6 +64,7 @@ brew install cmake
 ### 2. ソースのディレクトリでセットアップ
 
 ```bash
+git clone https://github.com/miyatsuko10004/local-dictation.git
 cd local-dictation
 ./scripts/setup.sh
 ```
