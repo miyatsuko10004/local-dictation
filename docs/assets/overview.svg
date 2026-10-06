@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="260" viewBox="0 0 1000 260" role="img" aria-labelledby="title desc">
+<title id="title">Local Dictation workflow</title><desc id="desc">Selected microphone, processing on your Mac, and text delivered to the active input.</desc>
+<rect width="1000" height="260" rx="24" fill="#0f172a"/>
+<g font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif">
+<text x="42" y="49" fill="#94a3b8" font-size="13" letter-spacing="2">YOUR VOICE. YOUR MAC. YOUR WORDS.</text>
+<rect x="40" y="80" width="260" height="138" rx="16" fill="#1e293b"/>
+<g stroke="#60a5fa" stroke-width="5" stroke-linecap="round"><path d="M70 136v26m12-41v56m12-70v84m12-57v30m12-44v58"/></g>
+<text x="142" y="135" fill="#f8fafc" font-size="20" font-weight="600">Speak</text><text x="142" y="162" fill="#94a3b8" font-size="13">Keyboard or headset</text>
+<path d="M322 149h33m-10-10 10 10-10 10" fill="none" stroke="#475569" stroke-width="3"/>
+<rect x="375" y="80" width="260" height="138" rx="16" fill="#1e293b" stroke="#3b82f6"/>
+<text x="400" y="121" fill="#60a5fa" font-size="12" letter-spacing="2">ON YOUR MAC</text><text x="400" y="152" fill="#f8fafc" font-size="20" font-weight="600">Transcribe + clean</text><text x="400" y="179" fill="#94a3b8" font-size="13">Whisper · Dictionary · Optional AI</text>
+<path d="M657 149h33m-10-10 10 10-10 10" fill="none" stroke="#475569" stroke-width="3"/>
+<rect x="710" y="80" width="250" height="138" rx="16" fill="#1e293b"/>
+<text x="735" y="134" fill="#f8fafc" font-size="20" font-weight="600">Keep writing</text><text x="735" y="161" fill="#94a3b8" font-size="13">Paste into your active input</text><text x="735" y="188" fill="#34d399" font-size="12">You choose when to send.</text>
+</g></svg>

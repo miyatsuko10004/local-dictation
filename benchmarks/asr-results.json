@@ -1,0 +1,631 @@
+{
+  "model": "ggml-large-v3-turbo-q5_0",
+  "hardware": "Apple M2 / 16GiB / macOS27.2",
+  "baselineSHA": "9ddd67d663eefa424997250097e4216963c6de07",
+  "kind": "TTS fixture comparison, one run per fixture; CoreML batch cold first row, whisper.cpp per-utterance CLI cold loads",
+  "rows": [
+    {
+      "audioSHA256": "17835c9bfb7b07aae59104bd43e4e49d314c8bf11cbe80fccf07a57c2743aa4a",
+      "voice": "Kyoko (Japanese (Japan))",
+      "split": "reference",
+      "id": "0-0",
+      "expected": "Antigravityは制限に達したので、すべてこの後Claudeでやる予定です。",
+      "own": {
+        "id": "0-0",
+        "raw": "\nAntigravityは制限に達したので、すべてこの後Claudでやる予定です。",
+        "seconds": 14.434973001480103,
+        "text": "Antigravityは制限に達したので、すべてこの後Claudeでやる予定です。",
+        "productionText": "Antigravityは制限に達したので、すべてこの後Claudでやる予定です。"
+      },
+      "baseline": {
+        "text": "Antigravityは制限に達したので、すべてこの後Claudeでやる予定です。",
+        "seconds": 2.059686499997042
+      },
+      "ownCER": 0.0,
+      "baselineCER": 0.0,
+      "terms": [
+        "Antigravity",
+        "Claude"
+      ]
+    },
+    {
+      "audioSHA256": "f69cf34af46e9c698df133234132d1b89df20027601ce4004da990afa9ef8865",
+      "voice": "Kyoko (Japanese (Japan))",
+      "split": "reference",
+      "id": "0-1",
+      "expected": "来週の水曜日の10時から、田中さんとGoogle Workspaceの打ち合わせをします。",
+      "own": {
+        "id": "0-1",
+        "raw": "\n来週の水曜日の10時から、田中さんとGoogle Workspaceの打ち合わせをします。",
+        "seconds": 2.0850460529327393,
+        "text": "来週の水曜日の10時から、田中さんとGoogle Workspaceの打ち合わせをします。",
+        "productionText": "来週の水曜日の10時から、田中さんとGoogle Workspaceの打ち合わせをします。"
+      },
+      "baseline": {
+        "text": "来週の水曜日の10時から、田中さんとGoogle Workspaceの打ち合わせをします。",
+        "seconds": 1.9607512909569778
+      },
+      "ownCER": 0.0,
+      "baselineCER": 0.0,
+      "terms": [
+        "Google Workspace"
+      ]
+    },
+    {
+      "audioSHA256": "833624b51589f53936c0056f4dbf40e82064fe1ea65aa097a7fc5fa4a6f08ab7",
+      "voice": "Kyoko (Japanese (Japan))",
+      "split": "reference",
+      "id": "0-2",
+      "expected": "GeminiとNotebookLMを使って、営業資料を作り直しました。",
+      "own": {
+        "id": "0-2",
+        "raw": "\nGeminiとNotebookLMを使って、営業資料を作り直しました。",
+        "seconds": 1.9845030307769775,
+        "text": "GeminiとNotebookLMを使って、営業資料を作り直しました。",
+        "productionText": "GeminiとNotebookLMを使って、営業資料を作り直しました。"
+      },
+      "baseline": {
+        "text": "GeminiとNotebookLMを使って、営業資料を作り直しました。",
+        "seconds": 1.9650502919685096
+      },
+      "ownCER": 0.0,
+      "baselineCER": 0.0,
+      "terms": [
+        "Gemini",
+        "NotebookLM"
+      ]
+    },
+    {
+      "audioSHA256": "62d26be267ff6234399dbf32497dcc50dd31b2b194797eff021ca094aebba47e",
+      "voice": "Kyoko (Japanese (Japan))",
+      "split": "reference",
+      "id": "0-3",
+      "expected": "Claude CodeとCodexを併用して、タスク管理のページを更新しています。",
+      "own": {
+        "id": "0-3",
+        "raw": "\nClaude CodeとCodexを併用して、タスク管理のページを更新しています。",
+        "seconds": 2.003749966621399,
+        "text": "Claude CodeとCodexを併用して、タスク管理のページを更新しています。",
+        "productionText": "Claude CodeとCodexを併用して、タスク管理のページを更新しています。"
+      },
+      "baseline": {
+        "text": "Claude CodeとCodexを併用して、タスク管理のページを更新しています。",
+        "seconds": 1.9699114579707384
+      },
+      "ownCER": 0.0,
+      "baselineCER": 0.0,
+      "terms": [
+        "Claude Code",
+        "Codex"
+      ]
+    },
+    {
+      "audioSHA256": "40487f94a908b3cdd3bee5101d8479d84d464e0410b295e549cd5da2ed723e10",
+      "voice": "Kyoko (Japanese (Japan))",
+      "split": "reference",
+      "id": "0-4",
+      "expected": "見積もりは月額3万円で、10月1日から問い合わせフォームの営業を始めます。",
+      "own": {
+        "id": "0-4",
+        "raw": "\n見積もりは月額3万円で、10月1日から問い合わせフォームの営業を始めます。",
+        "seconds": 2.081684947013855,
+        "text": "見積もりは月額3万円で、10月1日から問い合わせフォームの営業を始めます。",
+        "productionText": "見積もりは月額3万円で、10月1日から問い合わせフォームの営業を始めます。"
+      },
+      "baseline": {
+        "text": "見積もりは月額3万円で、10月1日から問い合わせフォームの営業を始めます。",
+        "seconds": 2.047833791002631
+      },
+      "ownCER": 0.0,
+      "baselineCER": 0.0,
+      "terms": []
+    },
+    {
+      "audioSHA256": "3ef37813b8831455740ff4a738eccb63c30879f2c48ae51fbf24874d824352a2",
+      "voice": "Kyoko (Japanese (Japan))",
+      "split": "reference",
+      "id": "0-5",
+      "expected": "Typelessと同じくらいの精度を、ローカルで実現したいと考えています。",
+      "own": {
+        "id": "0-5",
+        "raw": "\nTypelessと同じくらいの精度をローカルで実現したいと考えています。",
+        "seconds": 1.9988360404968262,
+        "text": "Typelessと同じくらいの精度をローカルで実現したいと考えています。",
+        "productionText": "Typelessと同じくらいの精度をローカルで実現したいと考えています。"
+      },
+      "baseline": {
+        "text": "Typelessと同じくらいの精度をローカルで実現したいと考えています。",
+        "seconds": 2.0761736250133254
+      },
+      "ownCER": 0.0,
+      "baselineCER": 0.0,
+      "terms": [
+        "Typeless"
+      ]
+    },
+    {
+      "audioSHA256": "a976e13968f9a78ac4b209b29c6dc68fc43cd00325aec8925de545036d1f3094",
+      "voice": "Kyoko (Japanese (Japan))",
+      "split": "reference",
+      "id": "0-6",
+      "expected": "ChatGPTで議事録を要約してから、共有ドライブに保存しておいてください。",
+      "own": {
+        "id": "0-6",
+        "raw": "\nChatGPTで議事録を要約してから、共有ドライブに保存しておいてください。",
+        "seconds": 2.021812915802002,
+        "text": "ChatGPTで議事録を要約してから、共有ドライブに保存しておいてください。",
+        "productionText": "ChatGPTで議事録を要約してから、共有ドライブに保存しておいてください。"
+      },
+      "baseline": {
+        "text": "ChatGPTで議事録を要約してから、共有ドライブに保存しておいてください。",
+        "seconds": 2.180601125000976
+      },
+      "ownCER": 0.0,
+      "baselineCER": 0.0,
+      "terms": [
+        "ChatGPT"
+      ]
+    },
+    {
+      "audioSHA256": "54d039beb45828bfcc06f6103aa91d3035e67e15fefca533a5ee46af656459f6",
+      "voice": "Kyoko (Japanese (Japan))",
+      "split": "holdout",
+      "id": "0-7",
+      "expected": "ファイルは削除しません。共有も送信も許可していません。",
+      "own": {
+        "id": "0-7",
+        "raw": "\nファイルは削除しません。共有も送信も許可していません。",
+        "seconds": 1.983799934387207,
+        "text": "ファイルは削除しません。共有も送信も許可していません。",
+        "productionText": "ファイルは削除しません。共有も送信も許可していません。"
+      },
+      "baseline": {
+        "text": "ファイルは削除しません。共有も送信も許可していません。",
+        "seconds": 2.1117986669996753
+      },
+      "ownCER": 0.0,
+      "baselineCER": 0.0,
+      "terms": []
+    },
+    {
+      "audioSHA256": "1934dd7afb549cb11140b9a88a53501c42af75e085d955e60129cb1d534f495c",
+      "voice": "Kyoko (Japanese (Japan))",
+      "split": "holdout",
+      "id": "0-8",
+      "expected": "予算は12500円、締め切りは11月15日です。",
+      "own": {
+        "id": "0-8",
+        "raw": "\n予算は12,500円、締め切りは11月15日です。",
+        "seconds": 2.1219829320907593,
+        "text": "予算は12,500円、締め切りは11月15日です。",
+        "productionText": "予算は12,500円、締め切りは11月15日です。"
+      },
+      "baseline": {
+        "text": "予算は12,500円、締め切りは11月15日です。",
+        "seconds": 1.8799990830011666
+      },
+      "ownCER": 0.0,
+      "baselineCER": 0.0,
+      "terms": []
+    },
+    {
+      "audioSHA256": "3a784f46b528d70ceb93f0fb4a86771f9cd03c8bfa2c1f1f1c38bb449a6eb38b",
+      "voice": "Kyoko (Japanese (Japan))",
+      "split": "holdout",
+      "id": "0-9",
+      "expected": "佐藤さんと高橋さんに確認してから、報告書を提出します。",
+      "own": {
+        "id": "0-9",
+        "raw": "\n佐藤さんと高橋さんに確認してから、報告書を提出します。",
+        "seconds": 1.9727849960327148,
+        "text": "佐藤さんと高橋さんに確認してから、報告書を提出します。",
+        "productionText": "佐藤さんと高橋さんに確認してから、報告書を提出します。"
+      },
+      "baseline": {
+        "text": "佐藤さんと高橋さんに確認してから、報告書を提出します。",
+        "seconds": 1.9560311670065857
+      },
+      "ownCER": 0.0,
+      "baselineCER": 0.0,
+      "terms": []
+    },
+    {
+      "audioSHA256": "0ae4855f81513ba91de80b0fabe06d5b5035cfbb77f8d9f0b645dfff95ec40d0",
+      "voice": "Kyoko (Japanese (Japan))",
+      "split": "holdout",
+      "id": "0-10",
+      "expected": "見積書の修正箇所を確認しました。追加の契約はしません。",
+      "own": {
+        "id": "0-10",
+        "raw": "\n見積書の修正箇所を確認しました。追加の契約はしません。",
+        "seconds": 1.9704780578613281,
+        "text": "見積書の修正箇所を確認しました。追加の契約はしません。",
+        "productionText": "見積書の修正箇所を確認しました。追加の契約はしません。"
+      },
+      "baseline": {
+        "text": "見積書の修正箇所を確認しました。追加の契約はしません。",
+        "seconds": 2.0098261249950156
+      },
+      "ownCER": 0.0,
+      "baselineCER": 0.0,
+      "terms": []
+    },
+    {
+      "audioSHA256": "55f4099909804f5e63afc6e057618e2345ad0f90a3525d4b9c771d4d1220e0bc",
+      "voice": "Kyoko (Japanese (Japan))",
+      "split": "holdout",
+      "id": "0-11",
+      "expected": "Claude Codeで修正し、Codexで確認します。公開はまだしません。",
+      "own": {
+        "id": "0-11",
+        "raw": "\nClaude Codeで修正し、Codexで確認します。公開はまだしません。",
+        "seconds": 2.0165679454803467,
+        "text": "Claude Codeで修正し、Codexで確認します。公開はまだしません。",
+        "productionText": "Claude Codeで修正し、Codexで確認します。公開はまだしません。"
+      },
+      "baseline": {
+        "text": "Claude Codeで修正し、Codexで確認します。公開はまだしません。",
+        "seconds": 1.9496190829668194
+      },
+      "ownCER": 0.0,
+      "baselineCER": 0.0,
+      "terms": [
+        "Claude Code",
+        "Codex"
+      ]
+    },
+    {
+      "audioSHA256": "44b499864d1f73da97c860e90ffe7de4e858022c9e758f0323de100760f8635a",
+      "voice": "Kyoko (Japanese (Japan))",
+      "split": "holdout",
+      "id": "0-12",
+      "expected": "録音を停止してから、文章を確認します。誤りがあれば自分で修正します。",
+      "own": {
+        "id": "0-12",
+        "raw": "\n録音を停止してから文章を確認します。誤りがあれば自分で修正します。",
+        "seconds": 1.995458960533142,
+        "text": "録音を停止してから文章を確認します。誤りがあれば自分で修正します。",
+        "productionText": "録音を停止してから文章を確認します。誤りがあれば自分で修正します。"
+      },
+      "baseline": {
+        "text": "録音を停止してから文章を確認します。誤りがあれば自分で修正します。",
+        "seconds": 2.0449232920072973
+      },
+      "ownCER": 0.0,
+      "baselineCER": 0.0,
+      "terms": []
+    },
+    {
+      "audioSHA256": "aee2f49590a2bbed7b0484dcfe7cb21ad1071a0f271d109f07671e459699e54e",
+      "voice": "Eddy (Japanese (Japan))",
+      "split": "reference",
+      "id": "1-0",
+      "expected": "Antigravityは制限に達したので、すべてこの後Claudeでやる予定です。",
+      "own": {
+        "id": "1-0",
+        "raw": "\nAntigravityは制限に達したので、すべてこの後Claudでやる予定です。",
+        "seconds": 2.0394229888916016,
+        "text": "Antigravityは制限に達したので、すべてこの後Claudeでやる予定です。",
+        "productionText": "Antigravityは制限に達したので、すべてこの後Claudでやる予定です。"
+      },
+      "baseline": {
+        "text": "Antigravityは制限に達したので、すべてこの後Claudeでやる予定です。",
+        "seconds": 2.187749167031143
+      },
+      "ownCER": 0.0,
+      "baselineCER": 0.0,
+      "terms": [
+        "Antigravity",
+        "Claude"
+      ]
+    },
+    {
+      "audioSHA256": "4d58e70927b4161a8b89c84748f01c59d0c4a512af68bccbfb3092f42595d914",
+      "voice": "Eddy (Japanese (Japan))",
+      "split": "reference",
+      "id": "1-1",
+      "expected": "来週の水曜日の10時から、田中さんとGoogle Workspaceの打ち合わせをします。",
+      "own": {
+        "id": "1-1",
+        "raw": "\n来週の水曜日の10時から、田中さんとGoogle Workspaceの打ち合わせをします。",
+        "seconds": 2.0126739740371704,
+        "text": "来週の水曜日の10時から、田中さんとGoogle Workspaceの打ち合わせをします。",
+        "productionText": "来週の水曜日の10時から、田中さんとGoogle Workspaceの打ち合わせをします。"
+      },
+      "baseline": {
+        "text": "来週の水曜日の10時から、田中さんとGoogle Workspaceの打ち合わせをします。",
+        "seconds": 2.09650291595608
+      },
+      "ownCER": 0.0,
+      "baselineCER": 0.0,
+      "terms": [
+        "Google Workspace"
+      ]
+    },
+    {
+      "audioSHA256": "ba0e37f7f9d26b5d62f865b339833c5b862a75b00abc1683e9ffed5d5a052b6a",
+      "voice": "Eddy (Japanese (Japan))",
+      "split": "reference",
+      "id": "1-2",
+      "expected": "GeminiとNotebookLMを使って、営業資料を作り直しました。",
+      "own": {
+        "id": "1-2",
+        "raw": "\nGeminiとNotebookLMを使って、営業資料を作り直しました。",
+        "seconds": 1.9675060510635376,
+        "text": "GeminiとNotebookLMを使って、営業資料を作り直しました。",
+        "productionText": "GeminiとNotebookLMを使って、営業資料を作り直しました。"
+      },
+      "baseline": {
+        "text": "GeminiとNotebookLMを使って、営業資料を作り直しました。",
+        "seconds": 1.9656299999915063
+      },
+      "ownCER": 0.0,
+      "baselineCER": 0.0,
+      "terms": [
+        "Gemini",
+        "NotebookLM"
+      ]
+    },
+    {
+      "audioSHA256": "fd5217f5db5b9ed02e195dcdc5fd3f2bf2b8661f35272b770c095903233af465",
+      "voice": "Eddy (Japanese (Japan))",
+      "split": "reference",
+      "id": "1-3",
+      "expected": "Claude CodeとCodexを併用して、タスク管理のページを更新しています。",
+      "own": {
+        "id": "1-3",
+        "raw": "\nClaude CodeとCodexを併用して、タスク管理のページを更新しています。",
+        "seconds": 2.0032870769500732,
+        "text": "Claude CodeとCodexを併用して、タスク管理のページを更新しています。",
+        "productionText": "Claude CodeとCodexを併用して、タスク管理のページを更新しています。"
+      },
+      "baseline": {
+        "text": "Claude CodeとCodexを併用して、タスク管理のページを更新しています。",
+        "seconds": 2.6511146249831654
+      },
+      "ownCER": 0.0,
+      "baselineCER": 0.0,
+      "terms": [
+        "Claude Code",
+        "Codex"
+      ]
+    },
+    {
+      "audioSHA256": "f9d60eb10c1cc04d3fb5c58929225c7efa5a667bc09a4d9934b79ecae6dab6ac",
+      "voice": "Eddy (Japanese (Japan))",
+      "split": "reference",
+      "id": "1-4",
+      "expected": "見積もりは月額3万円で、10月1日から問い合わせフォームの営業を始めます。",
+      "own": {
+        "id": "1-4",
+        "raw": "\n見積もりは月額3万円で、10月1日から問い合わせフォームの営業を始めます。",
+        "seconds": 2.0858229398727417,
+        "text": "見積もりは月額3万円で、10月1日から問い合わせフォームの営業を始めます。",
+        "productionText": "見積もりは月額3万円で、10月1日から問い合わせフォームの営業を始めます。"
+      },
+      "baseline": {
+        "text": "見積もりは月額3万円で、10月1日から問い合わせフォームの営業を始めます。",
+        "seconds": 2.1162365000345744
+      },
+      "ownCER": 0.0,
+      "baselineCER": 0.0,
+      "terms": []
+    },
+    {
+      "audioSHA256": "0906bee4d92dec90b32302e2e0493cb224f366bfdbbc5266015c64a6583406cc",
+      "voice": "Eddy (Japanese (Japan))",
+      "split": "reference",
+      "id": "1-5",
+      "expected": "Typelessと同じくらいの精度を、ローカルで実現したいと考えています。",
+      "own": {
+        "id": "1-5",
+        "raw": "\nTypressと同じくらいの精度をローカルで実現したいと考えています。",
+        "seconds": 2.051566958427429,
+        "text": "Typressと同じくらいの精度をローカルで実現したいと考えています。",
+        "productionText": "Typressと同じくらいの精度をローカルで実現したいと考えています。"
+      },
+      "baseline": {
+        "text": "Typressと同じくらいの精度をローカルで実現したいと考えています。",
+        "seconds": 1.971797542006243
+      },
+      "ownCER": 0.05714285714285714,
+      "baselineCER": 0.05714285714285714,
+      "terms": [
+        "Typeless"
+      ]
+    },
+    {
+      "audioSHA256": "2878007e58b5124c4208ca04725351a929dc89c9114d7750c4a7dac84d192855",
+      "voice": "Eddy (Japanese (Japan))",
+      "split": "reference",
+      "id": "1-6",
+      "expected": "ChatGPTで議事録を要約してから、共有ドライブに保存しておいてください。",
+      "own": {
+        "id": "1-6",
+        "raw": "\nChatGPTで記事録を要約してから、共有ドライブに保存しておいてください。",
+        "seconds": 2.0243899822235107,
+        "text": "ChatGPTで記事録を要約してから、共有ドライブに保存しておいてください。",
+        "productionText": "ChatGPTで記事録を要約してから、共有ドライブに保存しておいてください。"
+      },
+      "baseline": {
+        "text": "ChatGPTで記事録を要約してから、共有ドライブに保存しておいてください。",
+        "seconds": 1.953372500021942
+      },
+      "ownCER": 0.027777777777777776,
+      "baselineCER": 0.027777777777777776,
+      "terms": [
+        "ChatGPT"
+      ]
+    },
+    {
+      "audioSHA256": "f25edefa082fb4f0cebfad22de7b9d4801c05445a3c689a06bd9bd61f83c9d63",
+      "voice": "Eddy (Japanese (Japan))",
+      "split": "holdout",
+      "id": "1-7",
+      "expected": "ファイルは削除しません。共有も送信も許可していません。",
+      "own": {
+        "id": "1-7",
+        "raw": "\nファイルは削除しません。共有も送信も許可していません。",
+        "seconds": 2.024359941482544,
+        "text": "ファイルは削除しません。共有も送信も許可していません。",
+        "productionText": "ファイルは削除しません。共有も送信も許可していません。"
+      },
+      "baseline": {
+        "text": "ファイルは削除しません。共有も送信も許可していません。",
+        "seconds": 1.8966245419578627
+      },
+      "ownCER": 0.0,
+      "baselineCER": 0.0,
+      "terms": []
+    },
+    {
+      "audioSHA256": "862c2486f0da06a9e91cab7ea95fe0da5daa182235b0bdd7ba6b14402e1523ba",
+      "voice": "Eddy (Japanese (Japan))",
+      "split": "holdout",
+      "id": "1-8",
+      "expected": "予算は12500円、締め切りは11月15日です。",
+      "own": {
+        "id": "1-8",
+        "raw": "\n予算は12,500円。締め切りは11月15日です。",
+        "seconds": 1.9794089794158936,
+        "text": "予算は12,500円。締め切りは11月15日です。",
+        "productionText": "予算は12,500円。締め切りは11月15日です。"
+      },
+      "baseline": {
+        "text": "予算は12,500円。締め切りは11月15日です。",
+        "seconds": 1.8862889590091072
+      },
+      "ownCER": 0.0,
+      "baselineCER": 0.0,
+      "terms": []
+    },
+    {
+      "audioSHA256": "4556144c2ca8c46e1ec602a0e9e26705f198c0d36f285455f7bbff094fee52a2",
+      "voice": "Eddy (Japanese (Japan))",
+      "split": "holdout",
+      "id": "1-9",
+      "expected": "佐藤さんと高橋さんに確認してから、報告書を提出します。",
+      "own": {
+        "id": "1-9",
+        "raw": "\n佐藤さんと高橋さんに確認してから、報告書を提出します。",
+        "seconds": 2.064931035041809,
+        "text": "佐藤さんと高橋さんに確認してから、報告書を提出します。",
+        "productionText": "佐藤さんと高橋さんに確認してから、報告書を提出します。"
+      },
+      "baseline": {
+        "text": "佐藤さんと高橋さんに確認してから、報告書を提出します。",
+        "seconds": 2.007681291026529
+      },
+      "ownCER": 0.0,
+      "baselineCER": 0.0,
+      "terms": []
+    },
+    {
+      "audioSHA256": "40174b595d206bc8fa976f65d787a56fdfa3b36c28bf22dab2a506087734b590",
+      "voice": "Eddy (Japanese (Japan))",
+      "split": "holdout",
+      "id": "1-10",
+      "expected": "見積書の修正箇所を確認しました。追加の契約はしません。",
+      "own": {
+        "id": "1-10",
+        "raw": "\n三森書の修正箇所を確認しました。追加の契約はしません。",
+        "seconds": 2.054310917854309,
+        "text": "三森書の修正箇所を確認しました。追加の契約はしません。",
+        "productionText": "三森書の修正箇所を確認しました。追加の契約はしません。"
+      },
+      "baseline": {
+        "text": "三森書の修正箇所を確認しました。追加の契約はしません。",
+        "seconds": 1.9493435839540325
+      },
+      "ownCER": 0.08,
+      "baselineCER": 0.08,
+      "terms": []
+    },
+    {
+      "audioSHA256": "f60bf1e4b04bd6301eb1b641aede9ef20b27555b820a1196a0161ce748f21261",
+      "voice": "Eddy (Japanese (Japan))",
+      "split": "holdout",
+      "id": "1-11",
+      "expected": "Claude Codeで修正し、Codexで確認します。公開はまだしません。",
+      "own": {
+        "id": "1-11",
+        "raw": "\nClaude Codeで修正し、Codexで確認します。公開はまだしません。",
+        "seconds": 1.9628549814224243,
+        "text": "Claude Codeで修正し、Codexで確認します。公開はまだしません。",
+        "productionText": "Claude Codeで修正し、Codexで確認します。公開はまだしません。"
+      },
+      "baseline": {
+        "text": "Claude Codeで修正し、Codexで確認します。公開はまだしません。",
+        "seconds": 2.0355231249704957
+      },
+      "ownCER": 0.0,
+      "baselineCER": 0.0,
+      "terms": [
+        "Claude Code",
+        "Codex"
+      ]
+    },
+    {
+      "audioSHA256": "b0d69df62de4abf12253acabc797b480410489aa49e4fefb25c621ef109d843b",
+      "voice": "Eddy (Japanese (Japan))",
+      "split": "holdout",
+      "id": "1-12",
+      "expected": "録音を停止してから、文章を確認します。誤りがあれば自分で修正します。",
+      "own": {
+        "id": "1-12",
+        "raw": "\n録音を停止してから文章を確認します。誤りがあれば自分で修正します。",
+        "seconds": 1.9786850214004517,
+        "text": "録音を停止してから文章を確認します。誤りがあれば自分で修正します。",
+        "productionText": "録音を停止してから文章を確認します。誤りがあれば自分で修正します。"
+      },
+      "baseline": {
+        "text": "録音を停止してから文章を確認します。誤りがあれば自分で修正します。",
+        "seconds": 2.215153291996103
+      },
+      "ownCER": 0.0,
+      "baselineCER": 0.0,
+      "terms": []
+    }
+  ],
+  "own": {
+    "meanCER": 0.006343101343101343,
+    "medianSeconds": 2.0146209597587585,
+    "termHits": 21,
+    "termTotal": 22
+  },
+  "baseline": {
+    "meanCER": 0.006343101343101343,
+    "medianSeconds": 2.0087537080107722,
+    "termHits": 21,
+    "termTotal": 22
+  },
+  "holdout": {
+    "own": {
+      "corpusCER": 0.006172839506172839,
+      "edits": 2,
+      "characters": 324,
+      "medianSeconds": 1.9896294474601746
+    },
+    "baseline": {
+      "corpusCER": 0.006172839506172839,
+      "edits": 2,
+      "characters": 324,
+      "medianSeconds": 1.9818562290165573
+    }
+  },
+  "reference": {
+    "own": {
+      "corpusCER": 0.005813953488372093,
+      "edits": 3,
+      "characters": 516,
+      "medianSeconds": 2.0231014490127563
+    },
+    "baseline": {
+      "corpusCER": 0.005813953488372093,
+      "edits": 3,
+      "characters": 516,
+      "medianSeconds": 2.0537601454998367
+    }
+  },
+  "normalization": "Same public LocalVoice prompt and spelling normalizer on both raw outputs; productionText retains Local Dictation own cleanup."
+}

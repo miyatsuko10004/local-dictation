@@ -1,0 +1,37 @@
+.build/
+build/
+.DS_Store
+.validation/
+.benchmark/
+.local-data/
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python / editor caches
+__pycache__/
+*.py[cod]
+.vscode/
+.idea/
+
+# Personal voice test records (not publication data)
+benchmarks/human-asr-results.json
+
+# Recordings, model weights, and runtime logs
+*.wav
+*.m4a
+*.mp3
+*.aiff
+*.caf
+*.bin
+*.gguf
+*.mlmodel
+*.mlmodelc/
+*.mlpackage/
+*.log
+*.p12
+*.pfx

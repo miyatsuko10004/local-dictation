@@ -1,0 +1,371 @@
+{
+  "type": "fixed candidate component acceptance; no model generation or whole-app accuracy measured",
+  "limitations": [
+    "VoiceKun: actual output-cleaning functions with exact post-clean Qwen checks; dictionary substitutions disabled.",
+    "localTypeless: actual transcript language heuristic and finalOutput; successful polish path always returns normalized candidate.",
+    "No network, speech recognizer or LLM generation in this harness. All candidates fixed before comparisons."
+  ],
+  "baseline_sha": {
+    "LocalVoice": "9ddd67d663eefa424997250097e4216963c6de07",
+    "voicekun": "aff0f71d709341cffb8b34a9cae0969e55a09a6c",
+    "localTypeless": "d0a82ba3f2ed678d477f1748fc75b6b1803d8026"
+  },
+  "rows": [
+    {
+      "expected": false,
+      "id": "negation-01",
+      "localDictation": false,
+      "localTypelessOutput": "実行します",
+      "localTypelessOutputAccepted": true,
+      "localVoiceGuards": true,
+      "voiceKunOutput": "実行します",
+      "voiceKunOutputAccepted": true
+    },
+    {
+      "expected": false,
+      "id": "negation-02",
+      "localDictation": false,
+      "localTypelessOutput": "送信します",
+      "localTypelessOutputAccepted": true,
+      "localVoiceGuards": true,
+      "voiceKunOutput": "送信します",
+      "voiceKunOutputAccepted": true
+    },
+    {
+      "expected": false,
+      "id": "negation-03",
+      "localDictation": false,
+      "localTypelessOutput": "削除します",
+      "localTypelessOutputAccepted": true,
+      "localVoiceGuards": true,
+      "voiceKunOutput": "削除します",
+      "voiceKunOutputAccepted": true
+    },
+    {
+      "expected": false,
+      "id": "negation-04",
+      "localDictation": false,
+      "localTypelessOutput": "公開します",
+      "localTypelessOutputAccepted": true,
+      "localVoiceGuards": true,
+      "voiceKunOutput": "公開します",
+      "voiceKunOutputAccepted": true
+    },
+    {
+      "expected": false,
+      "id": "negation-05",
+      "localDictation": false,
+      "localTypelessOutput": "購入します",
+      "localTypelessOutputAccepted": true,
+      "localVoiceGuards": true,
+      "voiceKunOutput": "購入します",
+      "voiceKunOutputAccepted": true
+    },
+    {
+      "expected": false,
+      "id": "negation-06",
+      "localDictation": false,
+      "localTypelessOutput": "変更します",
+      "localTypelessOutputAccepted": true,
+      "localVoiceGuards": true,
+      "voiceKunOutput": "変更します",
+      "voiceKunOutputAccepted": true
+    },
+    {
+      "expected": false,
+      "id": "integrity-07",
+      "localDictation": false,
+      "localTypelessOutput": "実行しません",
+      "localTypelessOutputAccepted": true,
+      "localVoiceGuards": true,
+      "voiceKunOutput": "実行しません",
+      "voiceKunOutputAccepted": true
+    },
+    {
+      "expected": false,
+      "id": "integrity-08",
+      "localDictation": false,
+      "localTypelessOutput": "許可してください",
+      "localTypelessOutputAccepted": true,
+      "localVoiceGuards": false,
+      "voiceKunOutput": "許可してください",
+      "voiceKunOutputAccepted": true
+    },
+    {
+      "expected": false,
+      "id": "integrity-09",
+      "localDictation": false,
+      "localTypelessOutput": "変更して連絡してください",
+      "localTypelessOutputAccepted": true,
+      "localVoiceGuards": false,
+      "voiceKunOutput": "変更して連絡してください",
+      "voiceKunOutputAccepted": true
+    },
+    {
+      "expected": false,
+      "id": "integrity-10",
+      "localDictation": false,
+      "localTypelessOutput": "完了したら送信します",
+      "localTypelessOutputAccepted": true,
+      "localVoiceGuards": false,
+      "voiceKunOutput": "完了したら送信します",
+      "voiceKunOutputAccepted": true
+    },
+    {
+      "expected": false,
+      "id": "integrity-11",
+      "localDictation": false,
+      "localTypelessOutput": "費用は3円です",
+      "localTypelessOutputAccepted": true,
+      "localVoiceGuards": false,
+      "voiceKunOutput": "費用は3円です",
+      "voiceKunOutputAccepted": true
+    },
+    {
+      "expected": false,
+      "id": "integrity-12",
+      "localDictation": false,
+      "localTypelessOutput": "会議は10月7日です",
+      "localTypelessOutputAccepted": true,
+      "localVoiceGuards": false,
+      "voiceKunOutput": "会議は10月7日です",
+      "voiceKunOutputAccepted": true
+    },
+    {
+      "expected": false,
+      "id": "integrity-13",
+      "localDictation": false,
+      "localTypelessOutput": "数値は15です",
+      "localTypelessOutputAccepted": true,
+      "localVoiceGuards": false,
+      "voiceKunOutput": "数値は15です",
+      "voiceKunOutputAccepted": true
+    },
+    {
+      "expected": false,
+      "id": "integrity-14",
+      "localDictation": false,
+      "localTypelessOutput": "口座は12です",
+      "localTypelessOutputAccepted": true,
+      "localVoiceGuards": false,
+      "voiceKunOutput": "口座は12です",
+      "voiceKunOutputAccepted": true
+    },
+    {
+      "expected": false,
+      "id": "integrity-15",
+      "localDictation": false,
+      "localTypelessOutput": "佐藤さんに送信します",
+      "localTypelessOutputAccepted": true,
+      "localVoiceGuards": false,
+      "voiceKunOutput": "佐藤さんに送信します",
+      "voiceKunOutputAccepted": true
+    },
+    {
+      "expected": false,
+      "id": "integrity-16",
+      "localDictation": false,
+      "localTypelessOutput": "この後作ります",
+      "localTypelessOutputAccepted": true,
+      "localVoiceGuards": false,
+      "voiceKunOutput": "この後作ります",
+      "voiceKunOutputAccepted": true
+    },
+    {
+      "expected": false,
+      "id": "integrity-17",
+      "localDictation": false,
+      "localTypelessOutput": "https://example.com/a?x=2 を開く",
+      "localTypelessOutputAccepted": true,
+      "localVoiceGuards": false,
+      "voiceKunOutput": "https://example.com/a?x=2 を開く",
+      "voiceKunOutputAccepted": true
+    },
+    {
+      "expected": false,
+      "id": "integrity-18",
+      "localDictation": false,
+      "localTypelessOutput": "fooBarを呼ぶ",
+      "localTypelessOutputAccepted": true,
+      "localVoiceGuards": true,
+      "voiceKunOutput": "fooBarを呼ぶ",
+      "voiceKunOutputAccepted": true
+    },
+    {
+      "expected": false,
+      "id": "integrity-19",
+      "localDictation": false,
+      "localTypelessOutput": "tokenを削除する",
+      "localTypelessOutputAccepted": true,
+      "localVoiceGuards": false,
+      "voiceKunOutput": "tokenを削除する",
+      "voiceKunOutputAccepted": true
+    },
+    {
+      "expected": false,
+      "id": "integrity-20",
+      "localDictation": false,
+      "localTypelessOutput": "「」は引用です",
+      "localTypelessOutputAccepted": true,
+      "localVoiceGuards": true,
+      "voiceKunOutput": "「」は引用です",
+      "voiceKunOutputAccepted": true
+    },
+    {
+      "expected": false,
+      "id": "integrity-21",
+      "localDictation": false,
+      "localTypelessOutput": "`fooBar`を使う",
+      "localTypelessOutputAccepted": true,
+      "localVoiceGuards": true,
+      "voiceKunOutput": "fooBar`を使う",
+      "voiceKunOutputAccepted": true
+    },
+    {
+      "expected": false,
+      "id": "integrity-22",
+      "localDictation": false,
+      "localTypelessOutput": "会議は10時です",
+      "localTypelessOutputAccepted": true,
+      "localVoiceGuards": false,
+      "voiceKunOutput": "会議は10時です",
+      "voiceKunOutputAccepted": true
+    },
+    {
+      "expected": false,
+      "id": "integrity-23",
+      "localDictation": false,
+      "localTypelessOutput": "今日は嬉しいです",
+      "localTypelessOutputAccepted": true,
+      "localVoiceGuards": true,
+      "voiceKunOutput": "今日は嬉しいです",
+      "voiceKunOutputAccepted": true
+    },
+    {
+      "expected": false,
+      "id": "integrity-24",
+      "localDictation": false,
+      "localTypelessOutput": "これはあなたの意見です",
+      "localTypelessOutputAccepted": true,
+      "localVoiceGuards": true,
+      "voiceKunOutput": "これはあなたの意見です",
+      "voiceKunOutputAccepted": true
+    },
+    {
+      "expected": true,
+      "id": "legitimate-25",
+      "localDictation": true,
+      "localTypelessOutput": "明日です。",
+      "localTypelessOutputAccepted": true,
+      "localVoiceGuards": true,
+      "voiceKunOutput": "明日です。",
+      "voiceKunOutputAccepted": true
+    },
+    {
+      "expected": true,
+      "id": "legitimate-26",
+      "localDictation": true,
+      "localTypelessOutput": "資料を送ります。",
+      "localTypelessOutputAccepted": true,
+      "localVoiceGuards": true,
+      "voiceKunOutput": "資料を送ります。",
+      "voiceKunOutputAccepted": true
+    },
+    {
+      "expected": true,
+      "id": "legitimate-27",
+      "localDictation": true,
+      "localTypelessOutput": "明日です。",
+      "localTypelessOutputAccepted": true,
+      "localVoiceGuards": true,
+      "voiceKunOutput": "明日です。",
+      "voiceKunOutputAccepted": true
+    },
+    {
+      "expected": true,
+      "id": "legitimate-28",
+      "localDictation": true,
+      "localTypelessOutput": "来週の水曜日です。",
+      "localTypelessOutputAccepted": true,
+      "localVoiceGuards": true,
+      "voiceKunOutput": "来週の水曜日です。",
+      "voiceKunOutputAccepted": true
+    },
+    {
+      "expected": true,
+      "id": "legitimate-29",
+      "localDictation": true,
+      "localTypelessOutput": "費用は4万円です。",
+      "localTypelessOutputAccepted": true,
+      "localVoiceGuards": false,
+      "voiceKunOutput": "費用は4万円です。",
+      "voiceKunOutputAccepted": true
+    },
+    {
+      "expected": true,
+      "id": "legitimate-30",
+      "localDictation": true,
+      "localTypelessOutput": "数量は20個です。",
+      "localTypelessOutputAccepted": true,
+      "localVoiceGuards": false,
+      "voiceKunOutput": "数量は20個です。",
+      "voiceKunOutputAccepted": true
+    },
+    {
+      "expected": true,
+      "id": "legitimate-31",
+      "localDictation": true,
+      "localTypelessOutput": "送信しません。",
+      "localTypelessOutputAccepted": true,
+      "localVoiceGuards": true,
+      "voiceKunOutput": "送信しません。",
+      "voiceKunOutputAccepted": true
+    },
+    {
+      "expected": true,
+      "id": "legitimate-32",
+      "localDictation": true,
+      "localTypelessOutput": "条件が成立するなら、実行します。",
+      "localTypelessOutputAccepted": true,
+      "localVoiceGuards": true,
+      "voiceKunOutput": "条件が成立するなら、実行します。",
+      "voiceKunOutputAccepted": true
+    },
+    {
+      "expected": true,
+      "id": "legitimate-33",
+      "localDictation": true,
+      "localTypelessOutput": "この案はいいと思います。",
+      "localTypelessOutputAccepted": true,
+      "localVoiceGuards": true,
+      "voiceKunOutput": "この案はいいと思います。",
+      "voiceKunOutputAccepted": true
+    },
+    {
+      "expected": true,
+      "id": "legitimate-34",
+      "localDictation": true,
+      "localTypelessOutput": "これは「あのー」という引用です。",
+      "localTypelessOutputAccepted": true,
+      "localVoiceGuards": true,
+      "voiceKunOutput": "これは「あのー」という引用です。",
+      "voiceKunOutputAccepted": true
+    }
+  ],
+  "localDictation": {
+    "dangerousAccepted": 0,
+    "legitimateRejected": 0
+  },
+  "localVoiceGuards": {
+    "dangerousAccepted": 12,
+    "legitimateRejected": 2
+  },
+  "voiceKunOutputAccepted": {
+    "dangerousAccepted": 24,
+    "legitimateRejected": 0
+  },
+  "localTypelessOutputAccepted": {
+    "dangerousAccepted": 24,
+    "legitimateRejected": 0
+  }
+}

@@ -1,0 +1,576 @@
+{
+  "kind": "TTS fixture comparison, one run per fixture; CoreML batch cold first row, whisper.cpp per-utterance CLI cold loads",
+  "rows": [
+    {
+      "split": "reference",
+      "id": "0-0",
+      "expected": "Antigravityは制限に達したので、すべてこの後Claudeでやる予定です。",
+      "own": {
+        "id": "0-0",
+        "raw": "Antigravityは制限に達したので、すべてこの後Claudeでやる予定です。",
+        "seconds": 5.149543046951294,
+        "text": "Antigravityは制限に達したので、すべてこの後Claudeでやる予定です。",
+        "productionText": "Antigravityは制限に達したので、すべてこの後Claudeでやる予定です。"
+      },
+      "baseline": {
+        "text": "Antigravityは制限に達したので、すべてこの後Claudeでやる予定です。",
+        "seconds": 2.2941571660339832
+      },
+      "ownCER": 0.0,
+      "baselineCER": 0.0,
+      "terms": [
+        "Antigravity",
+        "Claude"
+      ]
+    },
+    {
+      "split": "reference",
+      "id": "0-1",
+      "expected": "来週の水曜日の10時から、田中さんとGoogle Workspaceの打ち合わせをします。",
+      "own": {
+        "id": "0-1",
+        "raw": "来週の水曜日の10時から、田中さんとGoogle Workspaceの打ち合わせをします。",
+        "seconds": 1.413504958152771,
+        "text": "来週の水曜日の10時から、田中さんとGoogle Workspaceの打ち合わせをします。",
+        "productionText": "来週の水曜日の10時から、田中さんとGoogle Workspaceの打ち合わせをします。"
+      },
+      "baseline": {
+        "text": "来週の水曜日の10時から、田中さんとGoogle Workspaceの打ち合わせをします。",
+        "seconds": 1.9636247089947574
+      },
+      "ownCER": 0.0,
+      "baselineCER": 0.0,
+      "terms": [
+        "Google Workspace"
+      ]
+    },
+    {
+      "split": "reference",
+      "id": "0-2",
+      "expected": "GeminiとNotebookLMを使って、営業資料を作り直しました。",
+      "own": {
+        "id": "0-2",
+        "raw": "GeminiとNotebookLMを使って、営業資料を作り直しました。",
+        "seconds": 1.3774240016937256,
+        "text": "GeminiとNotebookLMを使って、営業資料を作り直しました。",
+        "productionText": "GeminiとNotebookLMを使って、営業資料を作り直しました。"
+      },
+      "baseline": {
+        "text": "GeminiとNotebookLMを使って、営業資料を作り直しました。",
+        "seconds": 1.9065487920306623
+      },
+      "ownCER": 0.0,
+      "baselineCER": 0.0,
+      "terms": [
+        "Gemini",
+        "NotebookLM"
+      ]
+    },
+    {
+      "split": "reference",
+      "id": "0-3",
+      "expected": "Claude CodeとCodexを併用して、タスク管理のページを更新しています。",
+      "own": {
+        "id": "0-3",
+        "raw": "Claude CodeとCodexを併用して、タスク管理のページを更新しています。",
+        "seconds": 1.4764339923858643,
+        "text": "Claude CodeとCodexを併用して、タスク管理のページを更新しています。",
+        "productionText": "Claude CodeとCodexを併用して、タスク管理のページを更新しています。"
+      },
+      "baseline": {
+        "text": "Claude CodeとCodexを併用して、タスク管理のページを更新しています。",
+        "seconds": 1.9225003329920582
+      },
+      "ownCER": 0.0,
+      "baselineCER": 0.0,
+      "terms": [
+        "Claude Code",
+        "Codex"
+      ]
+    },
+    {
+      "split": "reference",
+      "id": "0-4",
+      "expected": "見積もりは月額3万円で、10月1日から問い合わせフォームの営業を始めます。",
+      "own": {
+        "id": "0-4",
+        "raw": "三森は月額3万円で、10月1日から問い合わせフォームの営業を始めます。",
+        "seconds": 1.6828210353851318,
+        "text": "三森は月額3万円で、10月1日から問い合わせフォームの営業を始めます。",
+        "productionText": "三森は月額3万円で、10月1日から問い合わせフォームの営業を始めます。"
+      },
+      "baseline": {
+        "text": "見積もりは月額3万円で、10月1日から問い合わせフォームの営業を始めます。",
+        "seconds": 1.9445953749818727
+      },
+      "ownCER": 0.11428571428571428,
+      "baselineCER": 0.0,
+      "terms": []
+    },
+    {
+      "split": "reference",
+      "id": "0-5",
+      "expected": "Typelessと同じくらいの精度を、ローカルで実現したいと考えています。",
+      "own": {
+        "id": "0-5",
+        "raw": "Typelessと同じくらいの精度をローカルで実現したいと考えています。",
+        "seconds": 1.4324439764022827,
+        "text": "Typelessと同じくらいの精度をローカルで実現したいと考えています。",
+        "productionText": "Typelessと同じくらいの精度をローカルで実現したいと考えています。"
+      },
+      "baseline": {
+        "text": "Typelessと同じくらいの精度をローカルで実現したいと考えています。",
+        "seconds": 1.9695457500056364
+      },
+      "ownCER": 0.0,
+      "baselineCER": 0.0,
+      "terms": [
+        "Typeless"
+      ]
+    },
+    {
+      "split": "reference",
+      "id": "0-6",
+      "expected": "ChatGPTで議事録を要約してから、共有ドライブに保存しておいてください。",
+      "own": {
+        "id": "0-6",
+        "raw": "ChatGPTで議事録を要約してから、共有ドライブに保存しておいてください。",
+        "seconds": 1.4527010917663574,
+        "text": "ChatGPTで議事録を要約してから、共有ドライブに保存しておいてください。",
+        "productionText": "ChatGPTで議事録を要約してから、共有ドライブに保存しておいてください。"
+      },
+      "baseline": {
+        "text": "ChatGPTで議事録を要約してから、共有ドライブに保存しておいてください。",
+        "seconds": 1.9471303750178777
+      },
+      "ownCER": 0.0,
+      "baselineCER": 0.0,
+      "terms": [
+        "ChatGPT"
+      ]
+    },
+    {
+      "split": "holdout",
+      "id": "0-7",
+      "expected": "ファイルは削除しません。共有も送信も許可していません。",
+      "own": {
+        "id": "0-7",
+        "raw": "ファイルは削除しません。共有も送信も許可していません。",
+        "seconds": 1.3939530849456787,
+        "text": "ファイルは削除しません。共有も送信も許可していません。",
+        "productionText": "ファイルは削除しません。共有も送信も許可していません。"
+      },
+      "baseline": {
+        "text": "ファイルは削除しません。共有も送信も許可していません。",
+        "seconds": 1.9916208750219084
+      },
+      "ownCER": 0.0,
+      "baselineCER": 0.0,
+      "terms": []
+    },
+    {
+      "split": "holdout",
+      "id": "0-8",
+      "expected": "予算は12500円、締め切りは11月15日です。",
+      "own": {
+        "id": "0-8",
+        "raw": "予算は12,500円、締め切りは11月15日です。",
+        "seconds": 1.3772300481796265,
+        "text": "予算は12,500円、締め切りは11月15日です。",
+        "productionText": "予算は12,500円、締め切りは11月15日です。"
+      },
+      "baseline": {
+        "text": "予算は12,500円、締め切りは11月15日です。",
+        "seconds": 1.9101459169760346
+      },
+      "ownCER": 0.0,
+      "baselineCER": 0.0,
+      "terms": []
+    },
+    {
+      "split": "holdout",
+      "id": "0-9",
+      "expected": "佐藤さんと高橋さんに確認してから、報告書を提出します。",
+      "own": {
+        "id": "0-9",
+        "raw": "佐藤さんと高橋さんに確認してから、報告書を提出します。",
+        "seconds": 1.3032479286193848,
+        "text": "佐藤さんと高橋さんに確認してから、報告書を提出します。",
+        "productionText": "佐藤さんと高橋さんに確認してから、報告書を提出します。"
+      },
+      "baseline": {
+        "text": "佐藤さんと高橋さんに確認してから、報告書を提出します。",
+        "seconds": 1.987934083037544
+      },
+      "ownCER": 0.0,
+      "baselineCER": 0.0,
+      "terms": []
+    },
+    {
+      "split": "holdout",
+      "id": "0-10",
+      "expected": "見積書の修正箇所を確認しました。追加の契約はしません。",
+      "own": {
+        "id": "0-10",
+        "raw": "見積書の修正箇所を確認しました。追加の契約はしません。",
+        "seconds": 1.386252999305725,
+        "text": "見積書の修正箇所を確認しました。追加の契約はしません。",
+        "productionText": "見積書の修正箇所を確認しました。追加の契約はしません。"
+      },
+      "baseline": {
+        "text": "見積書の修正箇所を確認しました。追加の契約はしません。",
+        "seconds": 2.005443917005323
+      },
+      "ownCER": 0.0,
+      "baselineCER": 0.0,
+      "terms": []
+    },
+    {
+      "split": "holdout",
+      "id": "0-11",
+      "expected": "Claude Codeで修正し、Codexで確認します。公開はまだしません。",
+      "own": {
+        "id": "0-11",
+        "raw": "Claude Codeで修正し、Codexで確認します。公開はまだしません。",
+        "seconds": 1.323896050453186,
+        "text": "Claude Codeで修正し、Codexで確認します。公開はまだしません。",
+        "productionText": "Claude Codeで修正し、Codexで確認します。公開はまだしません。"
+      },
+      "baseline": {
+        "text": "Claude Codeで修正し、Codexで確認します。公開はまだしません。",
+        "seconds": 2.2085395839530975
+      },
+      "ownCER": 0.0,
+      "baselineCER": 0.0,
+      "terms": [
+        "Claude Code",
+        "Codex"
+      ]
+    },
+    {
+      "split": "holdout",
+      "id": "0-12",
+      "expected": "録音を停止してから、文章を確認します。誤りがあれば自分で修正します。",
+      "own": {
+        "id": "0-12",
+        "raw": "録音を停止してから文章を確認します。誤りがあれば自分で修正します。",
+        "seconds": 1.4300349950790405,
+        "text": "録音を停止してから文章を確認します。誤りがあれば自分で修正します。",
+        "productionText": "録音を停止してから文章を確認します。誤りがあれば自分で修正します。"
+      },
+      "baseline": {
+        "text": "録音を停止してから文章を確認します。誤りがあれば自分で修正します。",
+        "seconds": 2.8591417080024257
+      },
+      "ownCER": 0.0,
+      "baselineCER": 0.0,
+      "terms": []
+    },
+    {
+      "split": "reference",
+      "id": "1-0",
+      "expected": "Antigravityは制限に達したので、すべてこの後Claudeでやる予定です。",
+      "own": {
+        "id": "1-0",
+        "raw": "",
+        "seconds": 2.208662986755371,
+        "text": "",
+        "productionText": ""
+      },
+      "baseline": {
+        "text": "Antigravityは制限に達したので、すべてこの後Claudeでやる予定です。",
+        "seconds": 2.1267150419880636
+      },
+      "ownCER": 1.0,
+      "baselineCER": 0.0,
+      "terms": [
+        "Antigravity",
+        "Claude"
+      ]
+    },
+    {
+      "split": "reference",
+      "id": "1-1",
+      "expected": "来週の水曜日の10時から、田中さんとGoogle Workspaceの打ち合わせをします。",
+      "own": {
+        "id": "1-1",
+        "raw": "来週の水曜日の10時から、田中さんとGoogle Workspaceの打ち合わせをします。",
+        "seconds": 1.4680659770965576,
+        "text": "来週の水曜日の10時から、田中さんとGoogle Workspaceの打ち合わせをします。",
+        "productionText": "来週の水曜日の10時から、田中さんとGoogle Workspaceの打ち合わせをします。"
+      },
+      "baseline": {
+        "text": "来週の水曜日の10時から、田中さんとGoogle Workspaceの打ち合わせをします。",
+        "seconds": 1.9845820000045933
+      },
+      "ownCER": 0.0,
+      "baselineCER": 0.0,
+      "terms": [
+        "Google Workspace"
+      ]
+    },
+    {
+      "split": "reference",
+      "id": "1-2",
+      "expected": "GeminiとNotebookLMを使って、営業資料を作り直しました。",
+      "own": {
+        "id": "1-2",
+        "raw": "GeminiとNotebookLMを使って、営業資料を作り直しました。",
+        "seconds": 1.3338289260864258,
+        "text": "GeminiとNotebookLMを使って、営業資料を作り直しました。",
+        "productionText": "GeminiとNotebookLMを使って、営業資料を作り直しました。"
+      },
+      "baseline": {
+        "text": "GeminiとNotebookLMを使って、営業資料を作り直しました。",
+        "seconds": 1.9272416669991799
+      },
+      "ownCER": 0.0,
+      "baselineCER": 0.0,
+      "terms": [
+        "Gemini",
+        "NotebookLM"
+      ]
+    },
+    {
+      "split": "reference",
+      "id": "1-3",
+      "expected": "Claude CodeとCodexを併用して、タスク管理のページを更新しています。",
+      "own": {
+        "id": "1-3",
+        "raw": "Claude CodeとCodexを併用して、タスク管理のページを更新しています。",
+        "seconds": 1.3641479015350342,
+        "text": "Claude CodeとCodexを併用して、タスク管理のページを更新しています。",
+        "productionText": "Claude CodeとCodexを併用して、タスク管理のページを更新しています。"
+      },
+      "baseline": {
+        "text": "Claude CodeとCodexを併用して、タスク管理のページを更新しています。",
+        "seconds": 2.001996417006012
+      },
+      "ownCER": 0.0,
+      "baselineCER": 0.0,
+      "terms": [
+        "Claude Code",
+        "Codex"
+      ]
+    },
+    {
+      "split": "reference",
+      "id": "1-4",
+      "expected": "見積もりは月額3万円で、10月1日から問い合わせフォームの営業を始めます。",
+      "own": {
+        "id": "1-4",
+        "raw": "三つ森は月額3万円で、10月1日から問い合わせフォームの営業を始めます。",
+        "seconds": 1.4731099605560303,
+        "text": "三つ森は月額3万円で、10月1日から問い合わせフォームの営業を始めます。",
+        "productionText": "三つ森は月額3万円で、10月1日から問い合わせフォームの営業を始めます。"
+      },
+      "baseline": {
+        "text": "見積もりは月額3万円で、10月1日から問い合わせフォームの営業を始めます。",
+        "seconds": 1.9419744579936378
+      },
+      "ownCER": 0.11428571428571428,
+      "baselineCER": 0.0,
+      "terms": []
+    },
+    {
+      "split": "reference",
+      "id": "1-5",
+      "expected": "Typelessと同じくらいの精度を、ローカルで実現したいと考えています。",
+      "own": {
+        "id": "1-5",
+        "raw": "Typelessと同じくらいの精度をローカルで実現したいと考えています。",
+        "seconds": 1.3413360118865967,
+        "text": "Typelessと同じくらいの精度をローカルで実現したいと考えています。",
+        "productionText": "Typelessと同じくらいの精度をローカルで実現したいと考えています。"
+      },
+      "baseline": {
+        "text": "Typressと同じくらいの精度をローカルで実現したいと考えています。",
+        "seconds": 1.9256127499975264
+      },
+      "ownCER": 0.0,
+      "baselineCER": 0.05714285714285714,
+      "terms": [
+        "Typeless"
+      ]
+    },
+    {
+      "split": "reference",
+      "id": "1-6",
+      "expected": "ChatGPTで議事録を要約してから、共有ドライブに保存しておいてください。",
+      "own": {
+        "id": "1-6",
+        "raw": "ChatGPTで記事録を要約してから、共有ドライブに保存しておいてください。",
+        "seconds": 1.3345359563827515,
+        "text": "ChatGPTで記事録を要約してから、共有ドライブに保存しておいてください。",
+        "productionText": "ChatGPTで記事録を要約してから、共有ドライブに保存しておいてください。"
+      },
+      "baseline": {
+        "text": "ChatGPTで記事録を要約してから、共有ドライブに保存しておいてください。",
+        "seconds": 1.9352257500286214
+      },
+      "ownCER": 0.027777777777777776,
+      "baselineCER": 0.027777777777777776,
+      "terms": [
+        "ChatGPT"
+      ]
+    },
+    {
+      "split": "holdout",
+      "id": "1-7",
+      "expected": "ファイルは削除しません。共有も送信も許可していません。",
+      "own": {
+        "id": "1-7",
+        "raw": "ファイルは削除しません。共有も送信も許可していません。",
+        "seconds": 1.4005579948425293,
+        "text": "ファイルは削除しません。共有も送信も許可していません。",
+        "productionText": "ファイルは削除しません。共有も送信も許可していません。"
+      },
+      "baseline": {
+        "text": "ファイルは削除しません。共有も送信も許可していません。",
+        "seconds": 1.979741292016115
+      },
+      "ownCER": 0.0,
+      "baselineCER": 0.0,
+      "terms": []
+    },
+    {
+      "split": "holdout",
+      "id": "1-8",
+      "expected": "予算は12500円、締め切りは11月15日です。",
+      "own": {
+        "id": "1-8",
+        "raw": "予算は12,500円。締め切りは11月15日です。",
+        "seconds": 1.3424170017242432,
+        "text": "予算は12,500円。締め切りは11月15日です。",
+        "productionText": "予算は12,500円。締め切りは11月15日です。"
+      },
+      "baseline": {
+        "text": "予算は12,500円。締め切りは11月15日です。",
+        "seconds": 1.8819185410393402
+      },
+      "ownCER": 0.0,
+      "baselineCER": 0.0,
+      "terms": []
+    },
+    {
+      "split": "holdout",
+      "id": "1-9",
+      "expected": "佐藤さんと高橋さんに確認してから、報告書を提出します。",
+      "own": {
+        "id": "1-9",
+        "raw": "佐藤さんと高橋さんに確認してから、報告書を提出します。",
+        "seconds": 1.401405930519104,
+        "text": "佐藤さんと高橋さんに確認してから、報告書を提出します。",
+        "productionText": "佐藤さんと高橋さんに確認してから、報告書を提出します。"
+      },
+      "baseline": {
+        "text": "佐藤さんと高橋さんに確認してから、報告書を提出します。",
+        "seconds": 1.9170514169964008
+      },
+      "ownCER": 0.0,
+      "baselineCER": 0.0,
+      "terms": []
+    },
+    {
+      "split": "holdout",
+      "id": "1-10",
+      "expected": "見積書の修正箇所を確認しました。追加の契約はしません。",
+      "own": {
+        "id": "1-10",
+        "raw": "三つ森書の修正箇所を確認しました。追加の契約はしません。",
+        "seconds": 1.4285130500793457,
+        "text": "三つ森書の修正箇所を確認しました。追加の契約はしません。",
+        "productionText": "三つ森書の修正箇所を確認しました。追加の契約はしません。"
+      },
+      "baseline": {
+        "text": "三森書の修正箇所を確認しました。追加の契約はしません。",
+        "seconds": 1.9345412909751758
+      },
+      "ownCER": 0.12,
+      "baselineCER": 0.08,
+      "terms": []
+    },
+    {
+      "split": "holdout",
+      "id": "1-11",
+      "expected": "Claude Codeで修正し、Codexで確認します。公開はまだしません。",
+      "own": {
+        "id": "1-11",
+        "raw": "Claude Codeで修正し、Codexで確認します。公開はまだしません。",
+        "seconds": 1.4480739831924438,
+        "text": "Claude Codeで修正し、Codexで確認します。公開はまだしません。",
+        "productionText": "Claude Codeで修正し、Codexで確認します。公開はまだしません。"
+      },
+      "baseline": {
+        "text": "Claude Codeで修正し、Codexで確認します。公開はまだしません。",
+        "seconds": 1.9326555419829674
+      },
+      "ownCER": 0.0,
+      "baselineCER": 0.0,
+      "terms": [
+        "Claude Code",
+        "Codex"
+      ]
+    },
+    {
+      "split": "holdout",
+      "id": "1-12",
+      "expected": "録音を停止してから、文章を確認します。誤りがあれば自分で修正します。",
+      "own": {
+        "id": "1-12",
+        "raw": "録音を停止してから、文章を確認します。誤りがあれば自分で修正します。",
+        "seconds": 1.4608619213104248,
+        "text": "録音を停止してから、文章を確認します。誤りがあれば自分で修正します。",
+        "productionText": "録音を停止してから、文章を確認します。誤りがあれば自分で修正します。"
+      },
+      "baseline": {
+        "text": "録音を停止してから文章を確認します。誤りがあれば自分で修正します。",
+        "seconds": 2.021351582952775
+      },
+      "ownCER": 0.0,
+      "baselineCER": 0.0,
+      "terms": []
+    }
+  ],
+  "own": {
+    "meanCER": 0.05293650793650794,
+    "medianSeconds": 1.4074554443359375,
+    "termHits": 20,
+    "termTotal": 22
+  },
+  "baseline": {
+    "meanCER": 0.006343101343101343,
+    "medianSeconds": 1.9553775420063175,
+    "termHits": 21,
+    "termTotal": 22
+  },
+  "reference": {
+    "own": {
+      "corpusCER": 0.09302325581395349,
+      "edits": 48,
+      "characters": 516,
+      "medianSeconds": 1.44257253408432
+    },
+    "baseline": {
+      "corpusCER": 0.005813953488372093,
+      "edits": 3,
+      "characters": 516,
+      "medianSeconds": 1.9458628749998752
+    }
+  },
+  "holdout": {
+    "own": {
+      "corpusCER": 0.009259259259259259,
+      "edits": 3,
+      "characters": 324,
+      "medianSeconds": 1.397255539894104
+    },
+    "baseline": {
+      "corpusCER": 0.006172839506172839,
+      "edits": 2,
+      "characters": 324,
+      "medianSeconds": 1.9838376875268295
+    }
+  },
+  "normalization": "Same public LocalVoice prompt and spelling normalizer on both raw outputs; productionText retains Local Dictation own cleanup."
+}

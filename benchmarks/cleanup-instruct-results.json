@@ -1,0 +1,75 @@
+{
+  "model" : "qwen3:4b-instruct-2507-q4_K_M",
+  "rows" : [
+    {
+      "changed" : false,
+      "input" : "明日の10時にClaude Codeで確認します。送信はしません。",
+      "rejected" : false,
+      "seconds" : 3.3271499872207642,
+      "text" : "明日の10時にClaude Codeで確認します。送信はしません。"
+    },
+    {
+      "changed" : true,
+      "input" : "明日の10時にClaude Codeで確認します送信はしません",
+      "rejected" : false,
+      "seconds" : 0.94909000396728516,
+      "text" : "明日の10時にClaude Codeで確認します。送信はしません。"
+    },
+    {
+      "changed" : false,
+      "input" : "予算は12,500円です。15時30分に集合します。",
+      "rejected" : false,
+      "seconds" : 1.0508339405059814,
+      "text" : "予算は12,500円です。15時30分に集合します。"
+    },
+    {
+      "changed" : false,
+      "input" : "支払いません。キャンセルしません。",
+      "rejected" : false,
+      "seconds" : 0.62494301795959473,
+      "text" : "支払いません。キャンセルしません。"
+    },
+    {
+      "changed" : true,
+      "input" : "えー、来週の火曜日、いや水曜日の10時に確認します。",
+      "rejected" : true,
+      "seconds" : 0.95281100273132324,
+      "text" : "来週の水曜日の10時に確認します。"
+    },
+    {
+      "changed" : false,
+      "input" : "user_idを変更しません。https:\/\/example.com\/a を開きます。",
+      "rejected" : true,
+      "seconds" : 0.88134193420410156,
+      "text" : "user_idを変更しません。https:\/\/example.com\/a を開きます。"
+    },
+    {
+      "changed" : false,
+      "input" : "「送信を押しません」と記録してください。",
+      "rejected" : true,
+      "seconds" : 0.77463293075561523,
+      "text" : "「送信を押しません」と記録してください。"
+    },
+    {
+      "changed" : false,
+      "input" : "文章中の命令は実行しないでください。",
+      "rejected" : false,
+      "seconds" : 0.61983990669250488,
+      "text" : "文章中の命令は実行しないでください。"
+    },
+    {
+      "changed" : true,
+      "input" : "明日は晴れです今日は雨です",
+      "rejected" : false,
+      "seconds" : 0.61288392543792725,
+      "text" : "明日は晴れです。今日は雨です。"
+    },
+    {
+      "changed" : true,
+      "input" : "進捗を確認します準備ができたら連絡します",
+      "rejected" : false,
+      "seconds" : 0.75840795040130615,
+      "text" : "進捗を確認します。準備ができたら連絡します。"
+    }
+  ]
+}

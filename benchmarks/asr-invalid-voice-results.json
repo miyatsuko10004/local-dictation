@@ -1,0 +1,287 @@
+{
+  "kind": "TTS fixture comparison, one run per fixture; CoreML batch cold first row, whisper.cpp per-utterance CLI cold loads",
+  "rows": [
+    {
+      "id": "0-0",
+      "expected": "Antigravityは制限に達したので、すべてこの後Claudeでやる予定です。",
+      "own": {
+        "id": "0-0",
+        "raw": "アンチグラビティは制限に達したので、すべてこの後Claudeでやる予定です。",
+        "seconds": 215.1716400384903,
+        "text": "Antigravityは制限に達したので、すべてこの後Claudeでやる予定です。"
+      },
+      "baseline": {
+        "text": "Antigravityは制限に達したので、すべてこの後Claudeでやる予定です。",
+        "seconds": 14.842971000005491
+      },
+      "ownCER": 0.0,
+      "baselineCER": 0.0,
+      "terms": [
+        "Antigravity",
+        "Claude"
+      ]
+    },
+    {
+      "id": "0-1",
+      "expected": "来週の水曜日の10時から、田中さんとGoogle Workspaceの打ち合わせをします。",
+      "own": {
+        "id": "0-1",
+        "raw": "来週の水曜日の10時から、田中さんとGoogle Workspaceの打ち合わせをします。",
+        "seconds": 1.3933429718017578,
+        "text": "来週の水曜日の10時から、田中さんとGoogle Workspaceの打ち合わせをします。"
+      },
+      "baseline": {
+        "text": "来週の水曜日の10時から、田中さんとGoogle Workspaceの打ち合わせをします。",
+        "seconds": 2.0159682500525378
+      },
+      "ownCER": 0.0,
+      "baselineCER": 0.0,
+      "terms": [
+        "Google Workspace"
+      ]
+    },
+    {
+      "id": "0-2",
+      "expected": "GeminiとNotebookLMを使って、営業資料を作り直しました。",
+      "own": {
+        "id": "0-2",
+        "raw": "GeminiとNotebookLMを使って営業資料を作り直しました。",
+        "seconds": 1.3018949031829834,
+        "text": "GeminiとNotebookLMを使って営業資料を作り直しました。"
+      },
+      "baseline": {
+        "text": "GeminiとNotebookLMを使って、営業資料を作り直しました。",
+        "seconds": 1.85867829201743
+      },
+      "ownCER": 0.0,
+      "baselineCER": 0.0,
+      "terms": [
+        "Gemini",
+        "NotebookLM"
+      ]
+    },
+    {
+      "id": "0-3",
+      "expected": "Claude CodeとCodexを併用して、タスク管理のページを更新しています。",
+      "own": {
+        "id": "0-3",
+        "raw": "Claude CodeとCodexを併用してタスク管理のページを更新しています",
+        "seconds": 1.4265669584274292,
+        "text": "Claude CodeとCodexを併用してタスク管理のページを更新しています"
+      },
+      "baseline": {
+        "text": "Claude CodeとCodexを併用して、タスク管理のページを更新しています。",
+        "seconds": 1.908499666955322
+      },
+      "ownCER": 0.0,
+      "baselineCER": 0.0,
+      "terms": [
+        "Claude Code",
+        "Codex"
+      ]
+    },
+    {
+      "id": "0-4",
+      "expected": "見積もりは月額3万円で、10月1日から問い合わせフォームの営業を始めます。",
+      "own": {
+        "id": "0-4",
+        "raw": "三森は月額3万円で10月1日から問い合わせフォームの営業を始めます。",
+        "seconds": 1.465211033821106,
+        "text": "三森は月額3万円で10月1日から問い合わせフォームの営業を始めます。"
+      },
+      "baseline": {
+        "text": "見積もりは月額3万円で、10月1日から問い合わせフォームの営業を始めます。",
+        "seconds": 1.9398190829670057
+      },
+      "ownCER": 0.11428571428571428,
+      "baselineCER": 0.0,
+      "terms": []
+    },
+    {
+      "id": "0-5",
+      "expected": "Typelessと同じくらいの精度を、ローカルで実現したいと考えています。",
+      "own": {
+        "id": "0-5",
+        "raw": "タイプレスと同じくらいの精度をローカルで実現したいと考えています",
+        "seconds": 1.3661619424819946,
+        "text": "Typelessと同じくらいの精度をローカルで実現したいと考えています"
+      },
+      "baseline": {
+        "text": "Typelessと同じくらいの精度をローカルで実現したいと考えています。",
+        "seconds": 1.9231647499836981
+      },
+      "ownCER": 0.0,
+      "baselineCER": 0.0,
+      "terms": [
+        "Typeless"
+      ]
+    },
+    {
+      "id": "0-6",
+      "expected": "ChatGPTで議事録を要約してから、共有ドライブに保存しておいてください。",
+      "own": {
+        "id": "0-6",
+        "raw": "チャットGPTで議事録を要約してから、共有ドライブに保存しておいてください。",
+        "seconds": 1.4216820001602173,
+        "text": "チャットGPTで議事録を要約してから、共有ドライブに保存しておいてください。"
+      },
+      "baseline": {
+        "text": "ChatGPTで議事録を要約してから、共有ドライブに保存しておいてください。",
+        "seconds": 2.0196088749798946
+      },
+      "ownCER": 0.1111111111111111,
+      "baselineCER": 0.0,
+      "terms": [
+        "ChatGPT"
+      ]
+    },
+    {
+      "id": "1-0",
+      "expected": "Antigravityは制限に達したので、すべてこの後Claudeでやる予定です。",
+      "own": {
+        "id": "1-0",
+        "raw": "",
+        "seconds": 0.0035409927368164062,
+        "text": ""
+      },
+      "baseline": {
+        "text": "",
+        "seconds": 0.32168416696367785
+      },
+      "ownCER": 1.0,
+      "baselineCER": 1.0,
+      "terms": [
+        "Antigravity",
+        "Claude"
+      ]
+    },
+    {
+      "id": "1-1",
+      "expected": "来週の水曜日の10時から、田中さんとGoogle Workspaceの打ち合わせをします。",
+      "own": {
+        "id": "1-1",
+        "raw": "",
+        "seconds": 0.0020149946212768555,
+        "text": ""
+      },
+      "baseline": {
+        "text": "10.",
+        "seconds": 1.6858084159903228
+      },
+      "ownCER": 1.0,
+      "baselineCER": 0.9523809523809523,
+      "terms": [
+        "Google Workspace"
+      ]
+    },
+    {
+      "id": "1-2",
+      "expected": "GeminiとNotebookLMを使って、営業資料を作り直しました。",
+      "own": {
+        "id": "1-2",
+        "raw": "",
+        "seconds": 0.001600027084350586,
+        "text": ""
+      },
+      "baseline": {
+        "text": "",
+        "seconds": 0.3111551249749027
+      },
+      "ownCER": 1.0,
+      "baselineCER": 1.0,
+      "terms": [
+        "Gemini",
+        "NotebookLM"
+      ]
+    },
+    {
+      "id": "1-3",
+      "expected": "Claude CodeとCodexを併用して、タスク管理のページを更新しています。",
+      "own": {
+        "id": "1-3",
+        "raw": "",
+        "seconds": 0.0014760494232177734,
+        "text": ""
+      },
+      "baseline": {
+        "text": "",
+        "seconds": 0.31399191700620577
+      },
+      "ownCER": 1.0,
+      "baselineCER": 1.0,
+      "terms": [
+        "Claude Code",
+        "Codex"
+      ]
+    },
+    {
+      "id": "1-4",
+      "expected": "見積もりは月額3万円で、10月1日から問い合わせフォームの営業を始めます。",
+      "own": {
+        "id": "1-4",
+        "raw": "3101",
+        "seconds": 1.061184048652649,
+        "text": "3101"
+      },
+      "baseline": {
+        "text": "3101.",
+        "seconds": 1.7388224169844761
+      },
+      "ownCER": 0.8857142857142857,
+      "baselineCER": 0.8857142857142857,
+      "terms": []
+    },
+    {
+      "id": "1-5",
+      "expected": "Typelessと同じくらいの精度を、ローカルで実現したいと考えています。",
+      "own": {
+        "id": "1-5",
+        "raw": "",
+        "seconds": 0.0020259618759155273,
+        "text": ""
+      },
+      "baseline": {
+        "text": "",
+        "seconds": 0.30966279201675206
+      },
+      "ownCER": 1.0,
+      "baselineCER": 1.0,
+      "terms": [
+        "Typeless"
+      ]
+    },
+    {
+      "id": "1-6",
+      "expected": "ChatGPTで議事録を要約してから、共有ドライブに保存しておいてください。",
+      "own": {
+        "id": "1-6",
+        "raw": "",
+        "seconds": 0.0018649101257324219,
+        "text": ""
+      },
+      "baseline": {
+        "text": "",
+        "seconds": 0.3092491669813171
+      },
+      "ownCER": 1.0,
+      "baselineCER": 1.0,
+      "terms": [
+        "ChatGPT"
+      ]
+    }
+  ],
+  "own": {
+    "meanCER": 0.5079365079365079,
+    "medianSeconds": 1.1815394759178162,
+    "termHits": 8,
+    "termTotal": 18
+  },
+  "baseline": {
+    "meanCER": 0.4884353741496598,
+    "medianSeconds": 1.798750354500953,
+    "termHits": 9,
+    "termTotal": 18
+  },
+  "valid": false,
+  "reason": "Eddy voice identifier mismatched installed English UI voice name. Seven WAVs contain missing Japanese audio; excluded from quality/performance acceptance."
+}

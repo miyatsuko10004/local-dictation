@@ -1,0 +1,58 @@
+{
+  "status": "blocked-on-device-japanese-assets-unavailable",
+  "baselineSHA": "aff0f71d709341cffb8b34a9cae0969e55a09a6c",
+  "fixtures": 46,
+  "app": ".benchmark/voicekun-harness/VoiceKun Benchmark.app",
+  "kind": "SFSpeech request component adaptation, not whole VoiceKun app",
+  "request": {
+    "locale": "ja-JP",
+    "requiresOnDeviceRecognition": true,
+    "shouldReportPartialResults": true,
+    "taskHint": "dictation",
+    "addsPunctuation": true,
+    "contextualStrings": []
+  },
+  "differences": [
+    "WAV buffer replay at original sample rate in real time replaces AVAudioEngine microphone tap.",
+    "No VoiceKun silence restart, UI, input routing, AI polish, or personal dictionary/history.",
+    "Start-to-final includes real-time audio replay; postEndAudioSeconds measures completion latency."
+  ],
+  "prerequisiteCheck": {
+    "recordedAt": "2026-10-06T02:32:03.089920+00:00",
+    "evidenceSource": "Parent agent live GUI observation; this worker did not operate UI",
+    "locale": "ja-JP",
+    "speechAuthorizationRawValue": 3,
+    "speechAuthorization": "authorized",
+    "isAvailable": true,
+    "supportsOnDeviceRecognition": false,
+    "keyboardDictationEnabled": true,
+    "keyboardDictationLanguage": "Japanese (Japan)",
+    "systemSettingsMessageParaphrase": "Japanese support for on-Mac Dictation will download later when Internet is available",
+    "recognitionStarted": false,
+    "audioSubmitted": false,
+    "results": null,
+    "CER": null,
+    "latency": null,
+    "inference": "Missing/pending Japanese on-device speech assets is consistent with Settings and API; exact OS download failure cause is not established."
+  },
+  "officialSources": [
+    {
+      "url": "https://developer.apple.com/documentation/speech/sfspeechrecognizer/supportsondevicerecognition",
+      "finding": "false means recognizer requires a network; on-device-only benchmark cannot start."
+    },
+    {
+      "url": "https://support.apple.com/en-gb/guide/mac-help/mh40584/26/mac/26",
+      "finding": "Keyboard > Dictation displays whether processing requires Internet; enable Dictation and select Languages > Japanese (Japan). This guide is macOS26; actual host is macOS27.2."
+    },
+    {
+      "url": "https://www.apple.com/macos/feature-availability/",
+      "finding": "Current macOS Golden Gate feature list includes Japanese (Japan) for on-device/modeless Dictation and states speech models must be downloaded. This does not prove legacy SFSpeechRecognizer assets are installed."
+    }
+  ],
+  "nextSafeSteps": [
+    "Keep Keyboard Dictation enabled with Japanese (Japan) selected; provide a normal Internet connection so macOS can download speech models. Model download is distinct from sending benchmark audio.",
+    "Use the helper check button to recheck supportsOnDeviceRecognition, without starting audio recognition. Start 46 fixtures only when true.",
+    "No documented force-download command for the legacy SFSpeechRecognizer model was found in the consulted Apple pages. Do not install third-party asset files or change requiresOnDeviceRecognition.",
+    "If Settings still shows pending download, the benchmark remains blocked by OS-managed assets; do not score unavailable recognition as accuracy failure or superiority."
+  ]
+}

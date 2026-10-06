@@ -1,0 +1,206 @@
+[
+  {
+    "id": "negation-01",
+    "original": "実行しません",
+    "candidate": "実行します",
+    "safe": false
+  },
+  {
+    "id": "negation-02",
+    "original": "送信しません",
+    "candidate": "送信します",
+    "safe": false
+  },
+  {
+    "id": "negation-03",
+    "original": "削除しません",
+    "candidate": "削除します",
+    "safe": false
+  },
+  {
+    "id": "negation-04",
+    "original": "公開しません",
+    "candidate": "公開します",
+    "safe": false
+  },
+  {
+    "id": "negation-05",
+    "original": "購入しません",
+    "candidate": "購入します",
+    "safe": false
+  },
+  {
+    "id": "negation-06",
+    "original": "変更しません",
+    "candidate": "変更します",
+    "safe": false
+  },
+  {
+    "id": "integrity-07",
+    "original": "実行します",
+    "candidate": "実行しません",
+    "safe": false
+  },
+  {
+    "id": "integrity-08",
+    "original": "許可しないでください",
+    "candidate": "許可してください",
+    "safe": false
+  },
+  {
+    "id": "integrity-09",
+    "original": "変更するなら連絡してください",
+    "candidate": "変更して連絡してください",
+    "safe": false
+  },
+  {
+    "id": "integrity-10",
+    "original": "完了した場合だけ送信します",
+    "candidate": "完了したら送信します",
+    "safe": false
+  },
+  {
+    "id": "integrity-11",
+    "original": "費用は3万円です",
+    "candidate": "費用は3円です",
+    "safe": false
+  },
+  {
+    "id": "integrity-12",
+    "original": "会議は10月6日です",
+    "candidate": "会議は10月7日です",
+    "safe": false
+  },
+  {
+    "id": "integrity-13",
+    "original": "数値は1.5です",
+    "candidate": "数値は15です",
+    "safe": false
+  },
+  {
+    "id": "integrity-14",
+    "original": "口座は0012です",
+    "candidate": "口座は12です",
+    "safe": false
+  },
+  {
+    "id": "integrity-15",
+    "original": "田中さんに送信します",
+    "candidate": "佐藤さんに送信します",
+    "safe": false
+  },
+  {
+    "id": "integrity-16",
+    "original": "すべてこの後作ります",
+    "candidate": "この後作ります",
+    "safe": false
+  },
+  {
+    "id": "integrity-17",
+    "original": "https://example.com/a?x=1 を開く",
+    "candidate": "https://example.com/a?x=2 を開く",
+    "safe": false
+  },
+  {
+    "id": "integrity-18",
+    "original": "foo_barを呼ぶ",
+    "candidate": "fooBarを呼ぶ",
+    "safe": false
+  },
+  {
+    "id": "integrity-19",
+    "original": "tokenを削除しない",
+    "candidate": "tokenを削除する",
+    "safe": false
+  },
+  {
+    "id": "integrity-20",
+    "original": "「あのー」は引用です",
+    "candidate": "「」は引用です",
+    "safe": false
+  },
+  {
+    "id": "integrity-21",
+    "original": "`foo_bar`を使う",
+    "candidate": "`fooBar`を使う",
+    "safe": false
+  },
+  {
+    "id": "integrity-22",
+    "original": "会議は10時から11時です",
+    "candidate": "会議は10時です",
+    "safe": false
+  },
+  {
+    "id": "integrity-23",
+    "original": "今日は楽しみです",
+    "candidate": "今日は嬉しいです",
+    "safe": false
+  },
+  {
+    "id": "integrity-24",
+    "original": "これは私の意見です",
+    "candidate": "これはあなたの意見です",
+    "safe": false
+  },
+  {
+    "id": "legitimate-25",
+    "original": "えーっと、明日です。",
+    "candidate": "明日です。",
+    "safe": true
+  },
+  {
+    "id": "legitimate-26",
+    "original": "あのー、資料を送ります。",
+    "candidate": "資料を送ります。",
+    "safe": true
+  },
+  {
+    "id": "legitimate-27",
+    "original": "えー、明日です",
+    "candidate": "明日です。",
+    "safe": true
+  },
+  {
+    "id": "legitimate-28",
+    "original": "来週の火曜日、いや水曜日です。",
+    "candidate": "来週の水曜日です。",
+    "safe": true
+  },
+  {
+    "id": "legitimate-29",
+    "original": "費用は3万円、いや4万円です。",
+    "candidate": "費用は4万円です。",
+    "safe": true
+  },
+  {
+    "id": "legitimate-30",
+    "original": "数量は10個、ではなくて20個です。",
+    "candidate": "数量は20個です。",
+    "safe": true
+  },
+  {
+    "id": "legitimate-31",
+    "original": "送信しません",
+    "candidate": "送信しません。",
+    "safe": true
+  },
+  {
+    "id": "legitimate-32",
+    "original": "条件が成立するなら実行します",
+    "candidate": "条件が成立するなら、実行します。",
+    "safe": true
+  },
+  {
+    "id": "legitimate-33",
+    "original": "この案は、いいと思います。",
+    "candidate": "この案はいいと思います。",
+    "safe": true
+  },
+  {
+    "id": "legitimate-34",
+    "original": "これは「あのー」という引用です",
+    "candidate": "これは「あのー」という引用です。",
+    "safe": true
+  }
+]

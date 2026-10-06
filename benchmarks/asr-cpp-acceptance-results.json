@@ -1,0 +1,455 @@
+{
+  "model": "ggml-large-v3-turbo-q5_0",
+  "hardware": "Apple M2 / 16GiB / macOS27.2",
+  "baselineSHA": "9ddd67d663eefa424997250097e4216963c6de07",
+  "kind": "TTS fixture comparison, one run per fixture; CoreML batch cold first row, whisper.cpp per-utterance CLI cold loads",
+  "rows": [
+    {
+      "audioSHA256": "97fd0720336739c24591f938d588142dcb2e71a09c66ad862123049c5e548310",
+      "voice": "Kyoko (Japanese (Japan))",
+      "split": "acceptance",
+      "id": "0-0",
+      "expected": "電源を切る前に、作業中の文章を保存してください。",
+      "own": {
+        "id": "0-0",
+        "raw": "\n電源を切る前に、作業中の文章を保存してください。",
+        "seconds": 2.0463409423828125,
+        "text": "電源を切る前に、作業中の文章を保存してください。",
+        "productionText": "電源を切る前に、作業中の文章を保存してください。"
+      },
+      "baseline": {
+        "text": "電源を切る前に、作業中の文章を保存してください。",
+        "seconds": 2.197649125009775
+      },
+      "ownCER": 0.0,
+      "baselineCER": 0.0,
+      "terms": []
+    },
+    {
+      "audioSHA256": "633e7b5b3255d780f6692d75912f27abc17205cf8f18d6afdc32907ca6ced79d",
+      "voice": "Kyoko (Japanese (Japan))",
+      "split": "acceptance",
+      "id": "0-1",
+      "expected": "新しいアプリには、毎回確認できる停止ボタンが必要です。",
+      "own": {
+        "id": "0-1",
+        "raw": "\n新しいアプリには、毎回確認できる停止ボタンが必要です。",
+        "seconds": 1.9159259796142578,
+        "text": "新しいアプリには、毎回確認できる停止ボタンが必要です。",
+        "productionText": "新しいアプリには、毎回確認できる停止ボタンが必要です。"
+      },
+      "baseline": {
+        "text": "新しいアプリには、毎回確認できる停止ボタンが必要です。",
+        "seconds": 1.976581625000108
+      },
+      "ownCER": 0.0,
+      "baselineCER": 0.0,
+      "terms": []
+    },
+    {
+      "audioSHA256": "7ff27f545ea02c0585565fbeee953167a89ba5a6ce8c43ea68851b1870ca72df",
+      "voice": "Kyoko (Japanese (Japan))",
+      "split": "acceptance",
+      "id": "0-2",
+      "expected": "予約は12月20日の14時です。人数は3人です。",
+      "own": {
+        "id": "0-2",
+        "raw": "\n予約は12月20日の14時です。人数は3人です。",
+        "seconds": 1.9866660833358765,
+        "text": "予約は12月20日の14時です。人数は3人です。",
+        "productionText": "予約は12月20日の14時です。人数は3人です。"
+      },
+      "baseline": {
+        "text": "予約は12月20日の14時です。人数は3人です。",
+        "seconds": 1.9067159169935621
+      },
+      "ownCER": 0.0,
+      "baselineCER": 0.0,
+      "terms": []
+    },
+    {
+      "audioSHA256": "e0fa65f3f46bb2114ff7eca62c3c59919eafdda72c7f6f264b2536b309af1dab",
+      "voice": "Kyoko (Japanese (Japan))",
+      "split": "acceptance",
+      "id": "0-3",
+      "expected": "昨日は強い雨でしたが、今日は窓から日差しが入っています。",
+      "own": {
+        "id": "0-3",
+        "raw": "\n昨日は強い雨でしたが、今日は窓から日差しが入っています。",
+        "seconds": 1.884208083152771,
+        "text": "昨日は強い雨でしたが、今日は窓から日差しが入っています。",
+        "productionText": "昨日は強い雨でしたが、今日は窓から日差しが入っています。"
+      },
+      "baseline": {
+        "text": "昨日は強い雨でしたが、今日は窓から日差しが入っています。",
+        "seconds": 1.8841200420283712
+      },
+      "ownCER": 0.0,
+      "baselineCER": 0.0,
+      "terms": []
+    },
+    {
+      "audioSHA256": "6999dbc413035f3990362c3a055f70a87ca50598bfbce2e20557150c69f12d3b",
+      "voice": "Kyoko (Japanese (Japan))",
+      "split": "acceptance",
+      "id": "0-4",
+      "expected": "この番号は変更しないでください。料金の支払いもまだ行いません。",
+      "own": {
+        "id": "0-4",
+        "raw": "\nこの番号は変更しないでください。料金の支払いもまだ行いません。",
+        "seconds": 2.051371932029724,
+        "text": "この番号は変更しないでください。料金の支払いもまだ行いません。",
+        "productionText": "この番号は変更しないでください。料金の支払いもまだ行いません。"
+      },
+      "baseline": {
+        "text": "この番号は変更しないでください。料金の支払いもまだ行いません。",
+        "seconds": 2.0209851670078933
+      },
+      "ownCER": 0.0,
+      "baselineCER": 0.0,
+      "terms": []
+    },
+    {
+      "audioSHA256": "b8dcdb76550b075dda87fd6fff113ea60c0d480f1f4d746c8cdd40434bc10fd8",
+      "voice": "Kyoko (Japanese (Japan))",
+      "split": "acceptance",
+      "id": "0-5",
+      "expected": "山田さんの資料は確認済みですが、鈴木さんの資料はまだ届いていません。",
+      "own": {
+        "id": "0-5",
+        "raw": "\n山田さんの資料は確認済みですが、鈴木さんの資料はまだ届いていません。",
+        "seconds": 2.009926915168762,
+        "text": "山田さんの資料は確認済みですが、鈴木さんの資料はまだ届いていません。",
+        "productionText": "山田さんの資料は確認済みですが、鈴木さんの資料はまだ届いていません。"
+      },
+      "baseline": {
+        "text": "山田さんの資料は確認済みですが、鈴木さんの資料はまだ届いていません。",
+        "seconds": 1.9663955830037594
+      },
+      "ownCER": 0.0,
+      "baselineCER": 0.0,
+      "terms": []
+    },
+    {
+      "audioSHA256": "8b817fb11f4e359ab708702e186dd39113b125bc93e26055c8b87336e77c33ee",
+      "voice": "Kyoko (Japanese (Japan))",
+      "split": "acceptance",
+      "id": "0-6",
+      "expected": "果物と野菜を買って、冷蔵庫に入れておきました。",
+      "own": {
+        "id": "0-6",
+        "raw": "\n果物と野菜を買って冷蔵庫に入れておきました。",
+        "seconds": 2.047845959663391,
+        "text": "果物と野菜を買って冷蔵庫に入れておきました。",
+        "productionText": "果物と野菜を買って冷蔵庫に入れておきました。"
+      },
+      "baseline": {
+        "text": "果物と野菜を買って冷蔵庫に入れておきました。",
+        "seconds": 1.9795801250147633
+      },
+      "ownCER": 0.0,
+      "baselineCER": 0.0,
+      "terms": []
+    },
+    {
+      "audioSHA256": "454f0818eeae634889d5311eabe267101df4c0fa10fcaa1206abb8a3fc0d1f0a",
+      "voice": "Kyoko (Japanese (Japan))",
+      "split": "acceptance",
+      "id": "0-7",
+      "expected": "計算結果は73です。前の値は27でした。",
+      "own": {
+        "id": "0-7",
+        "raw": "\n計算結果は73です。前の値は27でした。",
+        "seconds": 2.2890329360961914,
+        "text": "計算結果は73です。前の値は27でした。",
+        "productionText": "計算結果は73です。前の値は27でした。"
+      },
+      "baseline": {
+        "text": "計算結果は73です。前の値は27でした。",
+        "seconds": 1.9354785420000553
+      },
+      "ownCER": 0.0,
+      "baselineCER": 0.0,
+      "terms": []
+    },
+    {
+      "audioSHA256": "f0f08548d57f37888c6ba7edddc7518847e8c17fc815c60d50c6dc1772d7a83b",
+      "voice": "Kyoko (Japanese (Japan))",
+      "split": "acceptance",
+      "id": "0-8",
+      "expected": "登録を取り消します。古いファイルは残してください。",
+      "own": {
+        "id": "0-8",
+        "raw": "\n登録を取り消します。古いファイルは残してください。",
+        "seconds": 2.2382479906082153,
+        "text": "登録を取り消します。古いファイルは残してください。",
+        "productionText": "登録を取り消します。古いファイルは残してください。"
+      },
+      "baseline": {
+        "text": "登録を取り消します。古いファイルは残してください。",
+        "seconds": 1.7900525000295602
+      },
+      "ownCER": 0.0,
+      "baselineCER": 0.0,
+      "terms": []
+    },
+    {
+      "audioSHA256": "0f76e148ef6793973960fb6f309e90f1bbc63061e591c3b2a551d02c1fada1d7",
+      "voice": "Kyoko (Japanese (Japan))",
+      "split": "acceptance",
+      "id": "0-9",
+      "expected": "マイクの音が小さい場合は、口元に近づけてから話してください。",
+      "own": {
+        "id": "0-9",
+        "raw": "\nマイクの音が小さい場合は、口元に近づけてから話してください。",
+        "seconds": 2.154932975769043,
+        "text": "マイクの音が小さい場合は、口元に近づけてから話してください。",
+        "productionText": "マイクの音が小さい場合は、口元に近づけてから話してください。"
+      },
+      "baseline": {
+        "text": "マイクの音が小さい場合は、口元に近づけてから話してください。",
+        "seconds": 1.8731041669961996
+      },
+      "ownCER": 0.0,
+      "baselineCER": 0.0,
+      "terms": []
+    },
+    {
+      "audioSHA256": "baedefad360ecb7fab2140226979ea9b8d95ec83d2a9a9bd01eeb5e1b5506cb6",
+      "voice": "Eddy (Japanese (Japan))",
+      "split": "acceptance",
+      "id": "1-0",
+      "expected": "電源を切る前に、作業中の文章を保存してください。",
+      "own": {
+        "id": "1-0",
+        "raw": "\n電源を切る前に、作業中の文章を保存してください。",
+        "seconds": 2.308403968811035,
+        "text": "電源を切る前に、作業中の文章を保存してください。",
+        "productionText": "電源を切る前に、作業中の文章を保存してください。"
+      },
+      "baseline": {
+        "text": "電源を切る前に、作業中の文章を保存してください。",
+        "seconds": 1.8226065000053495
+      },
+      "ownCER": 0.0,
+      "baselineCER": 0.0,
+      "terms": []
+    },
+    {
+      "audioSHA256": "44ceb864b3927e8de3672378711ecc7bff97ce17bd1109b3b79a320afeca06ce",
+      "voice": "Eddy (Japanese (Japan))",
+      "split": "acceptance",
+      "id": "1-1",
+      "expected": "新しいアプリには、毎回確認できる停止ボタンが必要です。",
+      "own": {
+        "id": "1-1",
+        "raw": "\n新しいアプリには毎回確認できる停止ボタンが必要です。",
+        "seconds": 2.0442090034484863,
+        "text": "新しいアプリには毎回確認できる停止ボタンが必要です。",
+        "productionText": "新しいアプリには毎回確認できる停止ボタンが必要です。"
+      },
+      "baseline": {
+        "text": "新しいアプリには毎回確認できる停止ボタンが必要です。",
+        "seconds": 1.9295320420060307
+      },
+      "ownCER": 0.0,
+      "baselineCER": 0.0,
+      "terms": []
+    },
+    {
+      "audioSHA256": "0723cd8c7fbff37958d47d0f4ae94d1b30d7800786702f2d1505d9579d27daba",
+      "voice": "Eddy (Japanese (Japan))",
+      "split": "acceptance",
+      "id": "1-2",
+      "expected": "予約は12月20日の14時です。人数は3人です。",
+      "own": {
+        "id": "1-2",
+        "raw": "\n予約は12月20日の14時です。人数は3人です。",
+        "seconds": 2.4310189485549927,
+        "text": "予約は12月20日の14時です。人数は3人です。",
+        "productionText": "予約は12月20日の14時です。人数は3人です。"
+      },
+      "baseline": {
+        "text": "予約は12月20日の14時です。人数は3人です。",
+        "seconds": 2.008714792027604
+      },
+      "ownCER": 0.0,
+      "baselineCER": 0.0,
+      "terms": []
+    },
+    {
+      "audioSHA256": "778c529bccb86b53a26d5b850a00d530f7c5e7a2a53899760c94cb24da08875e",
+      "voice": "Eddy (Japanese (Japan))",
+      "split": "acceptance",
+      "id": "1-3",
+      "expected": "昨日は強い雨でしたが、今日は窓から日差しが入っています。",
+      "own": {
+        "id": "1-3",
+        "raw": "\n昨日は強い雨でしたが、今日は窓から日差しが入っています。",
+        "seconds": 2.067278027534485,
+        "text": "昨日は強い雨でしたが、今日は窓から日差しが入っています。",
+        "productionText": "昨日は強い雨でしたが、今日は窓から日差しが入っています。"
+      },
+      "baseline": {
+        "text": "昨日は強い雨でしたが、今日は窓から日差しが入っています。",
+        "seconds": 1.8860051250085235
+      },
+      "ownCER": 0.0,
+      "baselineCER": 0.0,
+      "terms": []
+    },
+    {
+      "audioSHA256": "a41d8a2ee11313937cad761ec2a815966a1e086fefa0adb9fae219dfc10dec91",
+      "voice": "Eddy (Japanese (Japan))",
+      "split": "acceptance",
+      "id": "1-4",
+      "expected": "この番号は変更しないでください。料金の支払いもまだ行いません。",
+      "own": {
+        "id": "1-4",
+        "raw": "\nこの番号は変更しないでください。料金の支払いもまだ行いません。",
+        "seconds": 2.0015690326690674,
+        "text": "この番号は変更しないでください。料金の支払いもまだ行いません。",
+        "productionText": "この番号は変更しないでください。料金の支払いもまだ行いません。"
+      },
+      "baseline": {
+        "text": "この番号は変更しないでください。料金の支払いもまだ行いません。",
+        "seconds": 1.9069286249578
+      },
+      "ownCER": 0.0,
+      "baselineCER": 0.0,
+      "terms": []
+    },
+    {
+      "audioSHA256": "fbc6aba7986fc1a81e453c8366db1029ecb61b6d336f471e1a0688d07463bba3",
+      "voice": "Eddy (Japanese (Japan))",
+      "split": "acceptance",
+      "id": "1-5",
+      "expected": "山田さんの資料は確認済みですが、鈴木さんの資料はまだ届いていません。",
+      "own": {
+        "id": "1-5",
+        "raw": "\n山田さんの資料は確認済みですが、鈴木さんの資料はまだ届いていません。",
+        "seconds": 2.002755045890808,
+        "text": "山田さんの資料は確認済みですが、鈴木さんの資料はまだ届いていません。",
+        "productionText": "山田さんの資料は確認済みですが、鈴木さんの資料はまだ届いていません。"
+      },
+      "baseline": {
+        "text": "山田さんの資料は確認済みですが、鈴木さんの資料はまだ届いていません。",
+        "seconds": 1.91284570901189
+      },
+      "ownCER": 0.0,
+      "baselineCER": 0.0,
+      "terms": []
+    },
+    {
+      "audioSHA256": "91ebae16c9993c682b1efe113beb548d6bbfc044004b826e991a9f42d80a656e",
+      "voice": "Eddy (Japanese (Japan))",
+      "split": "acceptance",
+      "id": "1-6",
+      "expected": "果物と野菜を買って、冷蔵庫に入れておきました。",
+      "own": {
+        "id": "1-6",
+        "raw": "\n果物と野菜を買って、冷蔵庫に入れておきました。",
+        "seconds": 1.909283995628357,
+        "text": "果物と野菜を買って、冷蔵庫に入れておきました。",
+        "productionText": "果物と野菜を買って、冷蔵庫に入れておきました。"
+      },
+      "baseline": {
+        "text": "果物と野菜を買って、冷蔵庫に入れておきました。",
+        "seconds": 1.884846207976807
+      },
+      "ownCER": 0.0,
+      "baselineCER": 0.0,
+      "terms": []
+    },
+    {
+      "audioSHA256": "b444774252490f466a993e2b6d4356fd25776e2a49d5df83968c1119dd6593bc",
+      "voice": "Eddy (Japanese (Japan))",
+      "split": "acceptance",
+      "id": "1-7",
+      "expected": "計算結果は73です。前の値は27でした。",
+      "own": {
+        "id": "1-7",
+        "raw": "\n計算結果は73です。前の値は27でした。",
+        "seconds": 1.925125002861023,
+        "text": "計算結果は73です。前の値は27でした。",
+        "productionText": "計算結果は73です。前の値は27でした。"
+      },
+      "baseline": {
+        "text": "計算結果は73です。前の値は27でした。",
+        "seconds": 1.8607922500232235
+      },
+      "ownCER": 0.0,
+      "baselineCER": 0.0,
+      "terms": []
+    },
+    {
+      "audioSHA256": "9c3f967a90094ee9ab1d101515586c3f2d0e58e3ae4d08bbe6865a1b62f7eb1e",
+      "voice": "Eddy (Japanese (Japan))",
+      "split": "acceptance",
+      "id": "1-8",
+      "expected": "登録を取り消します。古いファイルは残してください。",
+      "own": {
+        "id": "1-8",
+        "raw": "\n登録を取り消します。古いファイルは残してください。",
+        "seconds": 1.9485089778900146,
+        "text": "登録を取り消します。古いファイルは残してください。",
+        "productionText": "登録を取り消します。古いファイルは残してください。"
+      },
+      "baseline": {
+        "text": "登録を取り消します。古いファイルは残してください。",
+        "seconds": 1.8551554169971496
+      },
+      "ownCER": 0.0,
+      "baselineCER": 0.0,
+      "terms": []
+    },
+    {
+      "audioSHA256": "d788dd691e72f19fc53311632fe2cf6834f8fb1051d3af6cbaced90b83826b2b",
+      "voice": "Eddy (Japanese (Japan))",
+      "split": "acceptance",
+      "id": "1-9",
+      "expected": "マイクの音が小さい場合は、口元に近づけてから話してください。",
+      "own": {
+        "id": "1-9",
+        "raw": "\nマイクの音が小さい場合は、口元に近づけてから話してください。",
+        "seconds": 2.0211480855941772,
+        "text": "マイクの音が小さい場合は、口元に近づけてから話してください。",
+        "productionText": "マイクの音が小さい場合は、口元に近づけてから話してください。"
+      },
+      "baseline": {
+        "text": "マイクの音が小さい場合は、口元に近づけてから話してください。",
+        "seconds": 1.955518333998043
+      },
+      "ownCER": 0.0,
+      "baselineCER": 0.0,
+      "terms": []
+    }
+  ],
+  "own": {
+    "meanCER": 0.0,
+    "medianSeconds": 2.032678544521332,
+    "termHits": 0,
+    "termTotal": 0
+  },
+  "baseline": {
+    "meanCER": 0.0,
+    "medianSeconds": 1.909887166984845,
+    "termHits": 0,
+    "termTotal": 0
+  },
+  "acceptance": {
+    "own": {
+      "corpusCER": 0.0,
+      "edits": 0,
+      "characters": 492,
+      "medianSeconds": 2.032678544521332
+    },
+    "baseline": {
+      "corpusCER": 0.0,
+      "edits": 0,
+      "characters": 492,
+      "medianSeconds": 1.909887166984845
+    }
+  },
+  "normalization": "Same public LocalVoice prompt and spelling normalizer on both raw outputs; productionText retains Local Dictation own cleanup."
+}

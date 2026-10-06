@@ -1,0 +1,221 @@
+{
+  "type": "fixed candidate guard comparison; not LLM generation",
+  "cases": 34,
+  "baseline_sha": "9ddd67d663eefa424997250097e4216963c6de07",
+  "rows": [
+    {
+      "expected": false,
+      "id": "negation-01",
+      "localDictation": false,
+      "localVoiceGuards": true
+    },
+    {
+      "expected": false,
+      "id": "negation-02",
+      "localDictation": false,
+      "localVoiceGuards": true
+    },
+    {
+      "expected": false,
+      "id": "negation-03",
+      "localDictation": false,
+      "localVoiceGuards": true
+    },
+    {
+      "expected": false,
+      "id": "negation-04",
+      "localDictation": false,
+      "localVoiceGuards": true
+    },
+    {
+      "expected": false,
+      "id": "negation-05",
+      "localDictation": false,
+      "localVoiceGuards": true
+    },
+    {
+      "expected": false,
+      "id": "negation-06",
+      "localDictation": false,
+      "localVoiceGuards": true
+    },
+    {
+      "expected": false,
+      "id": "integrity-07",
+      "localDictation": false,
+      "localVoiceGuards": true
+    },
+    {
+      "expected": false,
+      "id": "integrity-08",
+      "localDictation": false,
+      "localVoiceGuards": false
+    },
+    {
+      "expected": false,
+      "id": "integrity-09",
+      "localDictation": false,
+      "localVoiceGuards": false
+    },
+    {
+      "expected": false,
+      "id": "integrity-10",
+      "localDictation": false,
+      "localVoiceGuards": false
+    },
+    {
+      "expected": false,
+      "id": "integrity-11",
+      "localDictation": false,
+      "localVoiceGuards": false
+    },
+    {
+      "expected": false,
+      "id": "integrity-12",
+      "localDictation": false,
+      "localVoiceGuards": false
+    },
+    {
+      "expected": false,
+      "id": "integrity-13",
+      "localDictation": false,
+      "localVoiceGuards": false
+    },
+    {
+      "expected": false,
+      "id": "integrity-14",
+      "localDictation": false,
+      "localVoiceGuards": false
+    },
+    {
+      "expected": false,
+      "id": "integrity-15",
+      "localDictation": false,
+      "localVoiceGuards": false
+    },
+    {
+      "expected": false,
+      "id": "integrity-16",
+      "localDictation": false,
+      "localVoiceGuards": false
+    },
+    {
+      "expected": false,
+      "id": "integrity-17",
+      "localDictation": false,
+      "localVoiceGuards": false
+    },
+    {
+      "expected": false,
+      "id": "integrity-18",
+      "localDictation": false,
+      "localVoiceGuards": true
+    },
+    {
+      "expected": false,
+      "id": "integrity-19",
+      "localDictation": false,
+      "localVoiceGuards": false
+    },
+    {
+      "expected": false,
+      "id": "integrity-20",
+      "localDictation": false,
+      "localVoiceGuards": true
+    },
+    {
+      "expected": false,
+      "id": "integrity-21",
+      "localDictation": false,
+      "localVoiceGuards": true
+    },
+    {
+      "expected": false,
+      "id": "integrity-22",
+      "localDictation": false,
+      "localVoiceGuards": false
+    },
+    {
+      "expected": false,
+      "id": "integrity-23",
+      "localDictation": false,
+      "localVoiceGuards": true
+    },
+    {
+      "expected": false,
+      "id": "integrity-24",
+      "localDictation": false,
+      "localVoiceGuards": true
+    },
+    {
+      "expected": true,
+      "id": "legitimate-25",
+      "localDictation": true,
+      "localVoiceGuards": true
+    },
+    {
+      "expected": true,
+      "id": "legitimate-26",
+      "localDictation": true,
+      "localVoiceGuards": true
+    },
+    {
+      "expected": true,
+      "id": "legitimate-27",
+      "localDictation": true,
+      "localVoiceGuards": true
+    },
+    {
+      "expected": true,
+      "id": "legitimate-28",
+      "localDictation": true,
+      "localVoiceGuards": true
+    },
+    {
+      "expected": true,
+      "id": "legitimate-29",
+      "localDictation": true,
+      "localVoiceGuards": false
+    },
+    {
+      "expected": true,
+      "id": "legitimate-30",
+      "localDictation": true,
+      "localVoiceGuards": false
+    },
+    {
+      "expected": true,
+      "id": "legitimate-31",
+      "localDictation": true,
+      "localVoiceGuards": true
+    },
+    {
+      "expected": true,
+      "id": "legitimate-32",
+      "localDictation": true,
+      "localVoiceGuards": true
+    },
+    {
+      "expected": true,
+      "id": "legitimate-33",
+      "localDictation": true,
+      "localVoiceGuards": true
+    },
+    {
+      "expected": true,
+      "id": "legitimate-34",
+      "localDictation": true,
+      "localVoiceGuards": true
+    }
+  ],
+  "localDictation": {
+    "dangerousAccepted": 0,
+    "legitimateRejected": 0,
+    "errors": 0
+  },
+  "localVoiceGuards": {
+    "dangerousAccepted": 12,
+    "legitimateRejected": 2,
+    "errors": 14
+  }
+}
