@@ -5,20 +5,30 @@ import AppKit
     @NSApplicationDelegateAdaptor(AppDelegate.self) private var appDelegate
     @StateObject private var controller = DictationController()
     var body: some Scene {
-        WindowGroup("Local Dictation") { DictationView(controller: controller).onAppear { appDelegate.controller = controller } }
+        WindowGroup("Local Dictation", id: "main") { DictationView(controller: controller).onAppear { appDelegate.controller = controller } }
             .defaultSize(width: 620, height: 650)
         MenuBarExtra("Local Dictation", systemImage: controller.recording ? "mic.fill" : "waveform") {
-            Text(controller.status)
-            Button(controller.recording ? "録音を停止" : "録音を開始") { controller.toggle() }
-                .disabled(controller.busy || !controller.prepared)
-            Button("中止") { controller.cancel() }.disabled(controller.preparing || controller.inserting || (!controller.busy && !controller.recording))
-            Divider()
-            Button("画面を開く") {
-                NSApp.activate(ignoringOtherApps: true)
-                NSApp.windows.first { $0.title == "Local Dictation" }?.makeKeyAndOrderFront(nil)
-            }
-            Button("終了") { controller.shutdown(); NSApp.terminate(nil) }
+            MenuContent(controller: controller)
         }
+    }
+}
+
+private struct MenuContent: View {
+    @ObservedObject var controller: DictationController
+    @Environment(\.openWindow) private var openWindow
+
+    var body: some View {
+        Text(controller.status)
+        Button(controller.recording ? "録音を停止" : "録音を開始") { controller.toggle() }
+            .disabled(controller.busy || !controller.prepared)
+        Button("中止") { controller.cancel() }
+            .disabled(controller.preparing || controller.inserting || (!controller.busy && !controller.recording))
+        Divider()
+        Button("画面を開く") {
+            openWindow(id: "main")
+            NSApp.activate(ignoringOtherApps: true)
+        }
+        Button("終了") { controller.shutdown(); NSApp.terminate(nil) }
     }
 }
 

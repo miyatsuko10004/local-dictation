@@ -5,13 +5,22 @@ cd "$task_root"
 export CLANG_MODULE_CACHE_PATH="$task_root/.build/clang-cache"
 export SWIFTPM_MODULECACHE_OVERRIDE="$task_root/.build/swift-cache"
 if [ ! -x "$task_root/.local-data/bin/whisper-cli" ]; then "$task_root/scripts/build-engine.sh"; fi
+sign_identity="${LOCAL_DICTATION_SIGN_IDENTITY:-}"
+if [ -z "$sign_identity" ] && [ -f "$task_root/.local-data/signing-identity" ]; then
+    sign_identity="$(cat "$task_root/.local-data/signing-identity")"
+    if [[ ! "$sign_identity" =~ ^[[:xdigit:]]{40}$ ]]; then
+        echo 'Invalid .local-data/signing-identity: expected a 40-character certificate SHA-1.' >&2
+        exit 1
+    fi
+fi
+sign_identity="${sign_identity:--}"
 swift build -c release --disable-sandbox --cache-path .build/cache
 app="$task_root/build/Local Dictation.app"
 mkdir -p "$app/Contents/MacOS" "$app/Contents/Resources"
 cp .build/release/LocalDictation "$app/Contents/MacOS/LocalDictation"
 cp .local-data/bin/whisper-cli "$app/Contents/Resources/whisper-cli"
 cp THIRD_PARTY_NOTICES.md "$app/Contents/Resources/THIRD_PARTY_NOTICES.md"
-codesign --force --sign "${LOCAL_DICTATION_SIGN_IDENTITY:--}" "$app/Contents/Resources/whisper-cli"
+codesign --force --sign "$sign_identity" "$app/Contents/Resources/whisper-cli"
 python3 - "$app" "$task_root" <<'PYINFO'
 import plistlib,sys
 from pathlib import Path
@@ -23,5 +32,6 @@ info={'CFBundleIdentifier':'local.manyo.LocalDictation','CFBundleName':'Local Di
 'LocalDictationDataDirectory':str(Path(root)/'.local-data'),'NSHighResolutionCapable':True}
 Path(app+'/Contents/Info.plist').write_bytes(plistlib.dumps(info))
 PYINFO
-codesign --force --sign "${LOCAL_DICTATION_SIGN_IDENTITY:--}" --identifier local.manyo.LocalDictation "$app"
+codesign --force --sign "$sign_identity" --identifier local.manyo.LocalDictation "$app"
+codesign --verify --deep --strict "$app"
 printf '%s\n' "$app"
